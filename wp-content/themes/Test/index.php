@@ -26,6 +26,7 @@
     </div>
 </div>
 <?php get_sidebar(); ?>
+<?php wp_register(); ?>
 
 </body>
 </html>
