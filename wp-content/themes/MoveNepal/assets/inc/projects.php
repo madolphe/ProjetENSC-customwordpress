@@ -3,19 +3,25 @@ add_action( 'init', 'projects' );
 
 function projects() {
     $labels = array(
-        'Image'               => _x( 'image', 'MoveNepal' ),
-        'Resume'               => _x( 'resume', 'MoveNepal' ),
-        'Accomodation'               => _x( 'accomodation', 'MoveNepal' ),
-        'Skills'               => _x( 'skills', 'MoveNepal' ),
-        'Program Start'               => _x( 'program_start', 'MoveNepal' ),
-        'Program Duration'               => _x( 'program_duration', 'MoveNepal' ),
-        'Who can apply'               => _x( 'who_can_apply', 'MoveNepal' ),
-
-    );
+        'name'               => _x( 'projets', 'MoveNepal' ),
+        'singular_name'      => _x( 'project', 'MoveNepal' ),
+        'menu_name'          => _x( 'Projects', 'MoveNepal' ),
+        'name_admin_bar'     => _x( 'projects', 'MoveNepal' ),
+        'add_new'            => _x( 'Ajouter un projet', 'MoveNepal' ),
+        'add_new_item'       => __( 'Ajouter un projet', 'MoveNepal' ),
+        'new_item'           => __( 'Nouveau projet', 'MoveNepal' ),
+        'edit_item'          => __( 'Editer un projet', 'MoveNepal' ),
+        'view_item'          => __( 'Voir le projet', 'MoveNepal' ),
+        'all_items'          => __( 'Tous les projets', 'MoveNepal' ),
+        'search_items'       => __( 'Rechercher dans projets', 'MoveNepal' ),
+        'parent_item_colon'  => __( 'Référence parente:', 'MoveNepal' ),
+        'not_found'          => __( 'Aucun projet trouvé.', 'MoveNepal' ),
+        'not_found_in_trash' => __( 'Aucun projet dans la corbeille.', 'MoveNepal' )
+            );
 
     $args = array(
         'labels'             => $labels,
-        'description'        => __( 'projects', 'MoveNepal' ),
+        'description'        => __( 'description', 'MoveNepal' ),
         'public'             => true,
         'publicly_queryable' => true,
         'show_ui'            => true,
