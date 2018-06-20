@@ -10,17 +10,53 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="movenepal.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/movenepal.css">
+<<<<<<< HEAD
+    <leaf>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+            <state relative-caret-position="660">
+              <caret line="44" column="51" lean-forward="true" selection-start-line="44" selection-start-column="51" selection-end-line="44" selection-end-column="51" />
+              <folding>
+                <marker date="1529473361672" expanded="true" signature="345:2202" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page-contact.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page-contact.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="119" lean-forward="false" selection-start-line="0" selection-start-column="119" selection-end-line="0" selection-end-column="119" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="movenepal.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/movenepal.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="122">
+              <caret line="59" column="12" lean-forward="true" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="12" />
+=======
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="movenepal.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/movenepal.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="262">
+<<<<<<< HEAD
+              <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+=======
+              <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+>>>>>>> 08027db552126887afc2958206070c45ccbcc444
+>>>>>>> 9274b7475f0fdffdc33c9269874f6ebf2c471005
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -66,7 +102,27 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="119" lean-forward="false" selection-start-line="0" selection-start-column="119" selection-end-line="0" selection-end-column="119" />
+=======
+<<<<<<< HEAD
+      <file leaf-file-name="movenepal.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/movenepal.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> 9274b7475f0fdffdc33c9269874f6ebf2c471005
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" column="41" lean-forward="false" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+              <folding>
+                <element signature="e#7#70#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -74,13 +130,54 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/header.php">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding>
+                <element signature="n#style#0;n#video#0;n#div#0;n#div#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#div#0;n#div#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#div#1;n#div#0;n#div#0;n#div#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1529471599663" expanded="true" signature="1918:2902" ph="..." />
+                <marker date="1529471599663" expanded="true" signature="1966:2902" ph="..." />
+                <marker date="1529471599663" expanded="true" signature="2012:2902" ph="..." />
+                <marker date="1529471599663" expanded="true" signature="2144:2625" ph="..." />
+                <marker date="1529471599663" expanded="true" signature="2312:2598" ph="..." />
+                <marker date="1529471599663" expanded="true" signature="2808:2902" ph="..." />
+                <marker date="1529471599663" expanded="true" signature="2873:2902" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="walker.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/inc/walker.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-37">
+              <caret line="10" column="42" lean-forward="false" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+              <folding>
+                <element signature="e#6#80#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="47" lean-forward="false" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
+=======
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/header.php">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="498">
               <caret line="40" column="56" lean-forward="false" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="56" />
+>>>>>>> 08027db552126887afc2958206070c45ccbcc444
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -90,6 +187,19 @@
                 <element signature="e#7#70#0#PHP" expanded="true" />
               </folding>
             </state>
+=======
+      <file leaf-file-name="f.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/f.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="down-arrow.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/down-arrow.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+>>>>>>> 9274b7475f0fdffdc33c9269874f6ebf2c471005
           </provider>
         </entry>
       </file>
@@ -107,11 +217,19 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/page-contact.php" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/footer.php" />
+=======
+        <option value="$PROJECT_DIR$/functions.php" />
+>>>>>>> 9274b7475f0fdffdc33c9269874f6ebf2c471005
         <option value="$PROJECT_DIR$/js/movenepal.js" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/inc/walker.php" />
         <option value="$PROJECT_DIR$/header.php" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/footer.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+=======
+>>>>>>> 08027db552126887afc2958206070c45ccbcc444
         <option value="$PROJECT_DIR$/css/movenepal.css" />
         <option value="$PROJECT_DIR$/functions.php" />
         <option value="$PROJECT_DIR$/assets/inc/projects.php" />
@@ -160,7 +278,15 @@
             <path>
               <item name="MoveNepal" type="b2602c69:ProjectViewProjectNode" />
               <item name="MoveNepal" type="2a2b976b:PhpTreeStructureProvider$1" />
+<<<<<<< HEAD
               <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+=======
+              <item name="images" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="MoveNepal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MoveNepal" type="2a2b976b:PhpTreeStructureProvider$1" />
+>>>>>>> 9274b7475f0fdffdc33c9269874f6ebf2c471005
               <item name="inc" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -221,13 +347,29 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1529378847799</updated>
+<<<<<<< HEAD
+      <workItem from="1529378849053" duration="18440000" />
+=======
       <workItem from="1529378849053" duration="15164000" />
+<<<<<<< HEAD
       <workItem from="1529470118131" duration="5949000" />
+=======
+      <workItem from="1529470118131" duration="4442000" />
+>>>>>>> 08027db552126887afc2958206070c45ccbcc444
+>>>>>>> 9274b7475f0fdffdc33c9269874f6ebf2c471005
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="21113000" />
+=======
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="18440000" />
+=======
+    <option name="totallyTimeSpent" value="19606000" />
+>>>>>>> 08027db552126887afc2958206070c45ccbcc444
+>>>>>>> 9274b7475f0fdffdc33c9269874f6ebf2c471005
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -304,20 +446,65 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/inc/walker.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-37">
+          <caret line="10" column="42" lean-forward="false" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+          <folding>
+            <element signature="e#6#80#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#video#0;n#div#0;n#div#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#div#0;n#div#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#1;n#div#0;n#div#0;n#div#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1529471599663" expanded="true" signature="1918:2902" ph="..." />
+            <marker date="1529471599663" expanded="true" signature="1966:2902" ph="..." />
+            <marker date="1529471599663" expanded="true" signature="2012:2902" ph="..." />
+            <marker date="1529471599663" expanded="true" signature="2144:2625" ph="..." />
+            <marker date="1529471599663" expanded="true" signature="2312:2598" ph="..." />
+            <marker date="1529471599663" expanded="true" signature="2808:2902" ph="..." />
+            <marker date="1529471599663" expanded="true" signature="2873:2902" ph="..." />
+=======
     <entry file="file://$PROJECT_DIR$/functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="28" column="41" lean-forward="true" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
           <folding>
             <element signature="e#7#70#0#PHP" expanded="true" />
+>>>>>>> 08027db552126887afc2958206070c45ccbcc444
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/images/down-arrow.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/f.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="41" lean-forward="false" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+=======
     <entry file="file://$PROJECT_DIR$/inc/walker.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+>>>>>>> 08027db552126887afc2958206070c45ccbcc444
           <folding>
             <element signature="e#6#80#0#PHP" expanded="true" />
           </folding>
@@ -326,12 +513,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="45">
+          <caret line="3" column="47" lean-forward="false" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="44" column="51" lean-forward="true" selection-start-line="44" selection-start-column="51" selection-end-line="44" selection-end-column="51" />
+=======
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -385,12 +578,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/movenepal.css">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="262">
           <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding />
+=======
+        <state relative-caret-position="105">
+          <caret line="10" column="42" lean-forward="false" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+>>>>>>> 08027db552126887afc2958206070c45ccbcc444
+          <folding>
+            <marker date="1529473361672" expanded="true" signature="345:2202" ph="..." />
+          </folding>
+>>>>>>> 9274b7475f0fdffdc33c9269874f6ebf2c471005
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/css/movenepal.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="59" column="12" lean-forward="true" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="12" />
+=======
     <entry file="file://$PROJECT_DIR$/page-contact.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -409,6 +617,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/page-projects.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
@@ -437,6 +646,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+=======
+        <state relative-caret-position="262">
+          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+>>>>>>> 08027db552126887afc2958206070c45ccbcc444
+>>>>>>> 9274b7475f0fdffdc33c9269874f6ebf2c471005
           <folding />
         </state>
       </provider>
