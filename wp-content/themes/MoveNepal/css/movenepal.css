@@ -4,13 +4,10 @@
     font-family: Avenir;
     background-color:#62B2C1;
     border: none;
+
 }
 .navbar-nav {min-width:100% !important;}
-.navbar li a
-{
-    color: white;
-    background-color: #62B2C1; !important;
-}
+.
 
 .li.dropdown.open
 {
@@ -36,20 +33,37 @@
 .apply
 {
     background-color: #31CBA7;
-    color:white;
     width: 150px;
     border-radius: 30px !important;
-    font-size: 18px !important;}
+    font-size: 18px !important;
+    padding: 2.5%;
+    height: 20%;
+    line-height:1.2; /* centrage vertical */
+    transform: translateY(80%);
+
+}
 
 .experience
 {
     color: white;
     font-family: Avenir;
-    vertical-align: middle;
+    padding: 2.5%;
+    line-height:1.2; /* centrage vertical */
+    text-align: center;
+    height: 20% !important;
     font-size: 20px;
 
 }
-.row.ligne1 {min-width: 100%; height: 10%;    background-color: RGB(0,146,170);
+.ligne1 {min-width: 100%; height: 50% !important;    background-color: RGB(0,146,170);
 }
-.row.ligne2{min-width: 100%; height: 5%;}
+.row.ligne2{min-width: 100%; height: 20%; color: white;}
 .glyphicon.glyphicon-arrow-right{width: 10px;}
+
+.navbar-default .navbar-nav>li>a { color : white !important;}
+
+.navbar-nav>li{padding-left: 5%; padding-right: 2.5%}
+
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover { text-decoration: underline !important;}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover { background-color: #62B2C1 !important;}
+.btn>a{color:white}
