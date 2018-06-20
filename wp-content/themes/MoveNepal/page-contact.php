@@ -1,4 +1,4 @@
-<!-- page d'exemple que nous n'utiliserons certainement pas mais le mieux serait d'uitiliser l'ID unique de la page -->
+i<!-- page d'exemple que nous n'utiliserons certainement pas mais le mieux serait d'uitiliser l'ID unique de la page -->
 <?php get_header(); ?>
 
 <?php //Création de la loop d'articles:
@@ -9,9 +9,9 @@ if(have_posts()):
 		the_post();?>
 
 		<?php the_content(); ?>
-		<h2><?php the_title(); ?> </h2>
+        <h2><?php the_title(); ?> </h2>
 
-		<hr>
+        <hr>
 	<?php }
 endif;
 ?>
