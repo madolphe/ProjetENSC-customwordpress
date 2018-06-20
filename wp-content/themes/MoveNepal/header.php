@@ -35,7 +35,7 @@
             </div>
             <div class="col-sm-5"></div>
             <div class="col-sm-2 experience">
-                <strong> <?php bloginfo('descrpition')?> </strong>
+                <strong> <?php bloginfo('description')?> </strong>
             </div>
             <div class="col-sm-2">
                 <button type="button" class="btn apply"> <a href=<?php bloginfo('template_directory') ?>"/page-contact.php"?> <strong>APPLY</strong> </a>   <img src="<?php echo bloginfo('template_directory')?>/images/right-arrow.png"></button>
