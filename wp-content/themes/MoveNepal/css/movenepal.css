@@ -1,0 +1,55 @@
+
+.navbar
+{
+    font-family: Avenir;
+    background-color:#62B2C1;
+    border: none;
+}
+.navbar-nav {min-width:100% !important;}
+.navbar li a
+{
+    color: white;
+    background-color: #62B2C1; !important;
+}
+
+.li.dropdown.open
+{
+    background-color: #62B2C1; !important;
+}
+
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover{ background-color: #62B2C1 !important; }
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{background-color: #62B2C1 !important; text-decoration: underline !important;}
+.dropdown-menu{background-color: #62B2C1 !important;
+    border: none !important;
+    box-shadow : none !important;
+    border : solid #62B2C1 !important;
+    border-radius: 10px !important; }
+
+.dropdown-divider{color:white;}
+
+.dropdown-menu .divider{height: 1px !important;}
+.navb
+{
+    padding-top: 1%;
+}
+.navbar-nav .dropdown-menu>li>a { color: white}
+.apply
+{
+    background-color: #31CBA7;
+    color:white;
+    width: 150px;
+    border-radius: 30px !important;
+    font-size: 18px !important;}
+
+.experience
+{
+    color: white;
+    font-family: Avenir;
+    vertical-align: middle;
+    font-size: 20px;
+
+}
+.row.ligne1 {min-width: 100%; height: 10%;    background-color: RGB(0,146,170);
+}
+.row.ligne2{min-width: 100%; height: 5%;}
+.glyphicon.glyphicon-arrow-right{width: 10px;}
