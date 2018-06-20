@@ -1,4 +1,150 @@
-/* Theme Name: Creation Theme Theme URI: #  Description: Creation d'un premier theme. Version: 0.1 Author: Maxime Adolphe   Creation Theme by Maxime Adolphe    */
-#content{
+/* Theme Name: Creation Theme Theme
+URI: #
+Description: Creation d'un premier theme.
+Version: 0.1
+Author: Maxime Adolphe
+Creation Theme by Maxime Adolphe    */
+
+html{
+    margin: 0px !important;
+}
+body {
+    font-family: "Avenir Next" !important;
+    font-size: 0.8em;
+    text-align: left;
+    background: #ffffff;
+    color: black;
+    margin: 0; }
+
+#header {
+    font-family: Trebuchet MS, Lucida Grande, Arial, Helvetica, Georgia, Sans-serif;
+    float: left;
+    background:#cccccc;
+    width: 750px;
+    padding: 0 10px 20px 10px; }
+#content { float: left;
+    width: 500px;
+    margin-bottom: 20px; }
+.sidebar { float: right;
+    width: 250px; }
+#footer { font-size: 1em;
+    background:#cccccc;
+    padding: 10px 10px 0 0;
+    clear: both;
+    width: 740px; }
+
+video.video_background{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100vh;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+    overflow: hidden;
+}
+.video_row {
+    min-height: 100vh;
+}
+#video-text{
+      color:white;
+      font-size: 7em;
+      min-height: 10vh;
+      min-width: 100%;
+  }
+.pol2{
+    font-family: Quicksand !important;
+    letter-spacing: 0.01em;
+    font-size: 0.7em;
+}
+.pol3{
+    font-family: Big John;
+    font-size: 1.5em ;
+}
+img.down-arrow{
+    width: 3vw;
+    height: 5vh;
+}
+.fleche{
+    margin-top: 10vh;
+}
+.text-middle{
 
 }
+.titre.pol2{
+
+    margin-top: 35vh; /* poussé de la moitié de hauteur de viewport */
+    transform: translateY(-35%);
+}
+
+.navbar.navbar-inverse
+{
+    font-family: Avenir;
+    background-color:#62B2C1;
+    border: none;
+}
+.navbar-inverse .navbar-nav {min-width:100% !important;}
+.navbar.navbar-inverse li a
+{
+    color: white;
+    background-color: #62B2C1; !important;
+}
+
+.li.dropdown.open
+{
+    background-color: #62B2C1; !important;
+}
+
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover{ background-color: #62B2C1 !important; }
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{background-color: #62B2C1 !important; text-decoration: underline !important;}
+.dropdown-menu{background-color: #62B2C1 !important;
+    border: none !important;
+    box-shadow : none !important;
+    border : solid #62B2C1 !important;
+    border-radius: 10px !important; }
+
+.dropdown-divider{color:white;}
+
+.dropdown-menu .divider{height: 1px !important;}
+.navb
+{
+    padding-top: 1%;
+}
+.navbar-inverse .navbar-nav .dropdown-menu>li>a { color: white}
+
+.apply
+{
+    background-color: #31CBA7;
+    color:white;
+    width: 150px;
+    border-radius: 30px !important;
+    font-size: 18px !important;}
+
+.experience
+{
+    color: white;
+    font-family: Avenir;
+    vertical-align: middle;
+    font-size: 20px;
+
+}
+
+.glyphicon.glyphicon-arrow-right{width: 10px;}
+
+.container1 {min-width: 100% !important;
+}
+
+.row.ligne1 {min-width: 100%; height: 10%;    background-color: RGB(0,146,170);
+}
+.row.ligne2{min-width: 100%; height: 5%;}
+
+.container1.scrolled{
+    min-width: 100% !important;
+    position: fixed;
+    top:0;
+}
+
+
+
+
