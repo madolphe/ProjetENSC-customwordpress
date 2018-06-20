@@ -6,7 +6,8 @@
 //on utilise le format if/endif pour rester cohérent avec le reste du code wordpress:
 if(have_posts()):
 	while(have_posts()){
-		the_post();?>
+		the_post();
+		the_content();?>
 
 		<?php
 		the_post();
