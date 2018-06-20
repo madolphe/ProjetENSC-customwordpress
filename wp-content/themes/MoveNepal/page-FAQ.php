@@ -8,9 +8,25 @@ if(have_posts()):
 	while(have_posts()){
 		the_post();?>
 
-		<?php the_content(); ?>
-		<h2><?php the_title(); ?> </h2>
-
+		<?php
+		the_post();
+		// Get 'valeurs' posts
+		$faqs_posts = get_posts(array(
+			'post_type' => 'faqs',
+			'posts_per_page' => -1, //posts illimités
+			'orderby' => 'title', //classer par ordre alphabetique
+		));
+		?>
+		<?php
+		if ($faqs_posts){
+			foreach ( $faqs_posts as $post){
+				setup_postdata($post);
+				?>
+				<p><?php the_field('question') ?></p>
+				<?php
+			}
+		}
+		?>
 		<hr>
 	<?php }
 endif;
