@@ -353,4 +353,7 @@ if (!function_exists('esc_html')) {
 		return apply_filters( 'esc_html', $safe_text, $text );
 	}
 }
+
+
+
 ?>

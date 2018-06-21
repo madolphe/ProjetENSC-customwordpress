@@ -533,3 +533,47 @@ Add a counter to the multi-steps indicator
     padding-top: 34px;
   }
 }
+
+.square {
+  width: 100%;
+  padding-bottom: 100%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.boite {
+  position: relative;
+  margin-top: 20%;
+}
+
+.caption {
+  position: absolute;
+  top: 80%;
+  left: 0;
+  width: 100%;
+  background-color: #62B2C1;
+  font-family: Avenir;
+  color: white !important;
+  height: 20%;
+}
+ a{color:white !important;}
+.centre{vertical-align: middle;}
+
+.titre{font-family: Avenir;
+  color: #707070;
+}
+
+p { font-family: avenir;
+font-size:1.2em; color: #707070; text-align: justify;}
+
+.logo
+{
+  text-align: center;
+}
+.logo img {  height: 50px !important;
+}
+
+.sous-titre{font-family: Avenir;font-size: 1.4em; color :#707070; text-align: justify;}
+
+.titre_projects{text-align: center;}

@@ -1,6 +1,17 @@
 <!-- page d'exemple que nous n'utiliserons certainement pas mais le mieux serait d'uitiliser l'ID unique de la page -->
 <?php get_header(); ?>
 
+<body>
+
+<div class="row titre">
+    <div class="col-sm-1"></div>
+    <div class="col-sm-6">
+    <h1><strong>GET INVOLVED AND PROJECTS </strong></h1>
+    </div>
+</div>
+
+
+
 <?php //Création de la loop d'articles:
 //Verification de la presence de contenu:
 //on utilise le format if/endif pour rester cohérent avec le reste du code wordpress:
@@ -17,20 +28,49 @@ if(have_posts()):
             'orderby' => 'title', //classer par ordre alphabetique
         ));
         ?>
+        <div class="container">
+        <div class="row">
+
+
         <?php
-        if ($projects_posts){
+        if ($projects_posts){ ?>
+
+            <?php
             foreach ( $projects_posts as $post){
                 setup_postdata($post);
+
                 ?>
-                <p><?php the_title()?></p>
-                <p><?php the_field('resume') ?></p>
+
+
+<div class ="col-sm-4">
+
+
+    <div class="col-sm-2"></div>
+    <div class="col-sm-9">
+
+    <div class="row" >
+        <div class="boite text-center">
+            <div class="square" style="background-image: url('<?php echo get_field('image')['url']; ?>')"></div>
+            <div class="caption">
+                <p class="titre_projects"><a href="<?php echo get_permalink(); ?>"><?php the_title();?></a></p>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="col-sm-1"></div>
+
+</div>
+
+
                 <?php
             }
         }
         ?>
         <hr>
+        </div>
+        </div>
     <?php }
 endif;
 ?>
+</body>
 
-<?php get_footer(); ?>
