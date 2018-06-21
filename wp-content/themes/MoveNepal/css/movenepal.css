@@ -1053,3 +1053,11 @@ Add a counter to the multi-steps indicator
     height: 150px ;
     
 }
+
+.cd-timeline-item-title, #cd-timeline p  {
+  color: #000000 !important;
+}
+
+#cd-timeline code {
+  background-color: white !important;
+}
