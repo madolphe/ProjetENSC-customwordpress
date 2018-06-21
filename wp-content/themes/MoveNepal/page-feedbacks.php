@@ -14,8 +14,8 @@ while(have_posts()):
 endif;
 $thumb = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full' );
 ?>
-<div class="jumbotron jumbotron-fluid" style="background-image: url('<?php echo $thumb['0'];?>'); background-repeat: no-repeat, repeat; background-size: cover; height: 300px;">	 
-</div>
+
+<?php include_once( 'banniere.php' );?>
 
 <div class="row">
 	
