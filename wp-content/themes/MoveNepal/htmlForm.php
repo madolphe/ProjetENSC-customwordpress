@@ -79,7 +79,7 @@
         <label>Select the project(s) you are interested in</label>
         <?php
         $the_query = new WP_Query( array(
-            'post_type' => 'project'
+            'post_type' => 'projects'
         ) );
 
         if ($the_query->have_posts()):
