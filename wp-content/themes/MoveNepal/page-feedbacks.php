@@ -6,14 +6,17 @@
 if(have_posts()):
 while(have_posts()):
 		the_post();
-		the_post_thumbnail();
 	    the_title('<h2>','</h2>');
 	    the_content();
 ?>
 	<hr>
 <?php endwhile;
 endif;
+$thumb = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full' );
 ?>
+<div class="jumbotron jumbotron-fluid" style="background-image: url('<?php echo $thumb['0'];?>'); background-repeat: no-repeat, repeat; background-size: cover; height: 300px;">	 
+</div>
+
 <div class="row">
 	
 	<div class="col-md-12">
@@ -34,6 +37,7 @@ endif;
 		
 	</div>
 </div>
+
 <?php echo do_shortcode('[timeline-express]'); ?>
 
 

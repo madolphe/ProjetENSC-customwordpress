@@ -1,5 +1,8 @@
 <?php
 
+add_theme_support( 'post-thumbnails' );
+
+
 function movenepal_script_enqueue(){
 	//(nom, chemin absolu, nombre de dependance, version, tous les supports
 	wp_enqueue_style('bootsrap',get_template_directory_uri().'/css/bootstrap.min.css',array(),'3.3.7','all');

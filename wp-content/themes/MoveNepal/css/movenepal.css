@@ -1061,3 +1061,8 @@ Add a counter to the multi-steps indicator
 #cd-timeline code {
   background-color: white !important;
 }
+
+.banniere {
+  width: 100%;
+  height: 300px;
+}
