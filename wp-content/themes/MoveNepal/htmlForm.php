@@ -1,5 +1,4 @@
   <form action="" method="post" enctype="multipart/form-data" id="application-form">
-
   <nav>
     <ol class="cd-multi-steps text-center">
       <li class="visited form-page">
