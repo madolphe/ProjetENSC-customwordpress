@@ -104,7 +104,7 @@
 				<div class = "row">
 					<div class="form-group">
 						<div class="col-sm-6 col-sm-offset-5">
-							<button type="submit" class="btn btn-default btn-info btn-lg" >Save</button>
+							<button type="submit" class="btn btn-default btn-info btn-lg" >Send</button>
 						</div>
             		</div>
 				</div>
