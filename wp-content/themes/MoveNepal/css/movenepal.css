@@ -533,3 +533,34 @@ Add a counter to the multi-steps indicator
     padding-top: 34px;
   }
 }
+.rotate{
+  -webkit-transform: rotate(180deg);  /* Chrome, Safari, Opera */
+  -moz-transform: rotate(180deg);  /* Firefox */
+  -ms-transform: rotate(180deg);  /* IE 9 */
+  transform: rotate(180deg);  /* Standard syntax */
+}
+div.panel-heading{
+  font-family:Avenir !important;
+  color:#62B2C1 !important;
+}
+div.panel-body.cat{
+  background-color: rgb(78, 83, 89) !important;
+  border-top: solid 1px black;
+}
+a.cat{
+  color:white;
+}
+
+.panel.panel-default{
+  -webkit-box-shadow: -4px 4px 18px 2px rgba(0,0,0,0.26);
+  -moz-box-shadow: -4px 4px 18px 2px rgba(0,0,0,0.26);
+  box-shadow: -4px 4px 18px 2px rgba(0,0,0,0.26);
+  position: -webkit-sticky;
+  position: sticky;}
+.col-sm-3.box-category{
+  padding-right: 35px;
+  padding-left: 35px;
+}
+.col-sm-6.qr{
+  padding:0;
+}
