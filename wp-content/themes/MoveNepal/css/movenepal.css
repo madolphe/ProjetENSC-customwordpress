@@ -132,7 +132,7 @@ Basic Style
 -------------------------------- */
 .cd-breadcrumb, .cd-multi-steps {
   width: 100%;
-  max-width: 768px;
+  max-width: 100%;
   padding: 0.5em 1em;
   margin: 1em auto;
   background-color: #edeff0;
@@ -1167,3 +1167,19 @@ font-size:1.2em; color: #707070; text-align: justify;}
   font-size: 20px;
   font-family: Avenir;
 }
+
+.video_row {
+  display: none;
+}
+
+.page-id-105 .video_brow {
+  display: inline !important;
+}
+.video_row {
+  display: none;
+}
+
+.page-id-105 .video_row {
+  display: block; !important;
+}
+

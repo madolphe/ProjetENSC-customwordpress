@@ -14,7 +14,9 @@ while(have_posts()):
 <?php endwhile;
 endif;
 ?>
-
+<div class="container-fluid">
+<p>blablabla</p>
+</div>
 
 
 
