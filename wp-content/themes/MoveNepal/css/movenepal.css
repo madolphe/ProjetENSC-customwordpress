@@ -1136,4 +1136,18 @@ font-size:1.2em; color: #707070; text-align: justify;}
   background-color: white !important;
 }
 
+.video_row {
+  display: none;
+}
+
+.page-id-105 .video_brow {
+  display: inline !important;
+}
+.video_row {
+  display: none;
+}
+
+.page-id-105 .video_row {
+  display: block; !important;
+}
 
