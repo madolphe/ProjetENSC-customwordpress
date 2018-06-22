@@ -542,6 +542,10 @@ Add a counter to the multi-steps indicator
 div.panel-heading{
   font-family:Avenir !important;
   color:#62B2C1 !important;
+  background-color: whitesmoke;
+  margin: 1px;
+  padding-top: 25px;
+  padding-bottom:25px;
 }
 div.panel-body.cat{
   background-color: rgb(78, 83, 89) !important;
@@ -552,14 +556,33 @@ a.cat{
 }
 
 .panel.panel-default{
-  -webkit-box-shadow: -4px 4px 18px 2px rgba(0,0,0,0.26);
-  -moz-box-shadow: -4px 4px 18px 2px rgba(0,0,0,0.26);
-  box-shadow: -4px 4px 18px 2px rgba(0,0,0,0.26);
-  position: -webkit-sticky;
-  position: sticky;}
+  -webkit-box-shadow: 2px 9px 16px -5px rgba(0,0,0,0.42);
+  -moz-box-shadow: 2px 9px 16px -5px rgba(0,0,0,0.42);
+  box-shadow: 2px 9px 16px -5px rgba(0,0,0,0.42);
+  margin: 2px;
+  margin-bottom:10px;
+
+}
+.panel.panel-default.cat{
+  -webkit-box-shadow: 2px 9px 16px -5px rgba(0,0,0,0.42);
+  -moz-box-shadow: 2px 9px 16px -5px rgba(0,0,0,0.42);
+  box-shadow: 2px 9px 16px -5px rgba(0,0,0,0.42);
+  margin: 2px;
+  margin-bottom:10px;
+
+
+}
+
+
 .col-sm-3.box-category{
   padding-right: 35px;
   padding-left: 35px;
+  font-family: Avenir !important;
+  margin-top: 47px;
+  font-size: 16.5px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 .col-sm-6.qr{
   padding:0;
@@ -591,8 +614,10 @@ a.cat{
  a{color:white !important;}
 .centre{vertical-align: middle;}
 
-.titre{font-family: Avenir;
+.titre{
+  font-family: Avenir;
   color: #707070;
+
 }
 
 p { font-family: avenir;
@@ -1134,6 +1159,13 @@ font-size:1.2em; color: #707070; text-align: justify;}
 
 #cd-timeline code {
   background-color: white !important;
+}
+.panel-title a{
+  color:#62B2C1 !important;
+}
+.title-cat{
+  font-size: 20px;
+  font-family: Avenir;
 }
 
 .video_row {

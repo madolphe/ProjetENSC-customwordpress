@@ -27,7 +27,7 @@
 </div>
 
 <header>
-    <div class="container-fluid">
+    <div class="container-fluid navb">
 
         <div class="row ligne1 text-center">
             <div class="col-sm-3">
