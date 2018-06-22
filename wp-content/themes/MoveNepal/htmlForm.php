@@ -1,5 +1,4 @@
   <form action="" method="post" enctype="multipart/form-data" id="application-form">
-
   <nav>
     <ol class="cd-multi-steps text-center">
       <li class="visited form-page">
@@ -79,7 +78,7 @@
         <label>Select the project(s) you are interested in</label>
         <?php
         $the_query = new WP_Query( array(
-            'post_type' => 'project'
+            'post_type' => 'projects'
         ) );
 
         if ($the_query->have_posts()):

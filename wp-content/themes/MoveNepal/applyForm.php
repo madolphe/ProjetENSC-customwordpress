@@ -14,7 +14,7 @@ if (!($_SERVER["REQUEST_METHOD"] == "POST")){
 
 		$formValid = true;
 
-		$textElements = array('first-name','last-name','gender','nationality','inspiration-text','skills-text','ideas-text','describe-text','emergency1-first-name','emergency1-last-name','emergency2-first-name','emergency2-last-name','heard-about-us','more-info');
+		$textElements = array('first-name','last-name','gender','email','nationality','inspiration-text','skills-text','ideas-text','describe-text','emergency1-first-name','emergency1-last-name','emergency2-first-name','emergency2-last-name','heard-about-us','more-info');
 		$prefix = 'a-';
 
 		foreach($textElements as $key){
@@ -129,13 +129,13 @@ function sendForm($formElements){
 	$mail->isSMTP();                                      // Set mailer to use SMTP
 	$mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
 	$mail->SMTPAuth = true;                               // Enable SMTP authentication
-	$mail->Username = 'fantaisfantanotcoke@gmail.com';                 // SMTP username
+	$mail->Username = 'movenepalvolunteer@gmail.com';                 // SMTP username
 	$mail->Password = 'movenepal2415';                           // SMTP password
-	$mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
-	$mail->Port = 587;                                    // TCP port to connect to
+	$mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
+	$mail->Port = 465;                                    // TCP port to connect to
 
 	$mail->setFrom($formElements['email'], $formElements['full-name']);
-	$mail->addAddress('broute.sacha@gmail.com', 'Sacha');     // Add a recipient
+	$mail->addAddress('aloizel@ensc.fr', 'Antoine');     // Add a recipient
 	$mail->addReplyTo($formElements['email'], $formElements['full-name']);
 
 	//$mail->isHTML(true);                                  // Set email format to HTML

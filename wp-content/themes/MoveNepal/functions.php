@@ -1,22 +1,21 @@
 <?php
 
-/*
-==================
-	Ajout des scripts:
-==================
-*/
+add_theme_support( 'post-thumbnails' );
 
-//Création d'une fonction pour inclure les fichiers style et script:
-//Bien veiller à prendre un nom unique!
 
 function movenepal_script_enqueue(){
 	//(nom, chemin absolu, nombre de dependance, version, tous les supports
 	wp_enqueue_style('bootsrap',get_template_directory_uri().'/css/bootstrap.min.css',array(),'3.3.7','all');
+		  wp_enqueue_style('font-awesome-icons','https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css');
 	wp_enqueue_style('customstyle',get_template_directory_uri().'/css/movenepal.css',array(),'1.0.0','all');
 	//on fait de même avec les scripts JS - le bool a la fin permet de dire ou est print le script
+
 	wp_enqueue_script('bootsrapjs',get_template_directory_uri().'/js/bootstrap.min.js',array(),'3.3.7',true);
 	wp_enqueue_script('customjs',get_template_directory_uri().'/js/movenepal.js',array(),'1.0.0',true);
 	wp_enqueue_script('jquery');
+	  if ( is_page( 'apply' ) ) {
+    wp_enqueue_script( 'googleCaptcha', 'https://www.google.com/recaptcha/api.js', array('jquery'), '1.0.0', true );
+  }
 
 }
 //Quand wordpress génére tous les scripts on ajoute la fonction precedente
@@ -58,13 +57,6 @@ require get_template_directory().'/inc/walker.php';
 
 include 'assets/inc/projects.php';
 
-?>
-
-
-
-
-
-<?php
 /*
 ==================
 NextPage Apply
@@ -365,5 +357,8 @@ if (!function_exists('esc_html')) {
 		return apply_filters( 'esc_html', $safe_text, $text );
 	}
 }
+<<<<<<< HEAD
 ?>
 
+=======
+>>>>>>> 45520dcac59bbf77962b9d322ca4fea48937a8f7
