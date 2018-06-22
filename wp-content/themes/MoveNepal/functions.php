@@ -357,8 +357,3 @@ if (!function_exists('esc_html')) {
 		return apply_filters( 'esc_html', $safe_text, $text );
 	}
 }
-<<<<<<< HEAD
-?>
-
-=======
->>>>>>> 45520dcac59bbf77962b9d322ca4fea48937a8f7
