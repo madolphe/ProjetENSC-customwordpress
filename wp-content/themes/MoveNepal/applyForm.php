@@ -14,7 +14,7 @@ if (!($_SERVER["REQUEST_METHOD"] == "POST")){
 
 		$formValid = true;
 
-		$textElements = array('first-name','last-name','gender','nationality','inspiration-text','skills-text','ideas-text','describe-text','emergency1-first-name','emergency1-last-name','emergency2-first-name','emergency2-last-name','heard-about-us','more-info');
+		$textElements = array('first-name','last-name','gender','email','nationality','inspiration-text','skills-text','ideas-text','describe-text','emergency1-first-name','emergency1-last-name','emergency2-first-name','emergency2-last-name','heard-about-us','more-info');
 		$prefix = 'a-';
 
 		foreach($textElements as $key){
@@ -135,7 +135,7 @@ function sendForm($formElements){
 	$mail->Port = 587;                                    // TCP port to connect to
 
 	$mail->setFrom($formElements['email'], $formElements['full-name']);
-	$mail->addAddress('ejouffroy@ensc.fr', 'Emma');     // Add a recipient
+	$mail->addAddress('aloizel@ensc.fr', 'Antoine');     // Add a recipient
 	$mail->addReplyTo($formElements['email'], $formElements['full-name']);
 
 	//$mail->isHTML(true);                                  // Set email format to HTML

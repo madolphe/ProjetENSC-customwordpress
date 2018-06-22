@@ -34,7 +34,7 @@
 		<p>Feel free to contact us as anytime, we are available 24 hours 7 days a week.
 		<br/>If you don't get answer, please leave a message and we shall get to you as soon as possible.</p>
 	</div>
-<hr>
+	<hr>
 
 <?php
 	if(have_posts()):
@@ -68,49 +68,55 @@
 	</div>
 	<br/>
 	<div class ="row">
-	<div class ="jumbotron col-sm-8 col-sm-offset-2">
-		<div class="card mb-3 p-3" id="form-part-1">
-			<div class="card-block">
-				<div class="form-group row">
-					<div class = "row">
-						<div class="col-sm-6 col-sm-offset-3">
-							<label class="form-control-label" for="name">Name</label>
-							<input class="form-control" type="text" placeholder="Enter your name" id="name" name="a-name">
+		<div class ="jumbotron col-sm-8 col-sm-offset-2">
+			<form action="" method="post" enctype="text/plain" id="application-form">
+
+				<div class="card-block">
+					<div class="form-group row">
+						<div class = "row">
+							<div class="col-sm-6 col-sm-offset-3">
+								<label class="form-control-label" for="name">First name</label>
+								<input class="form-control" type="text" placeholder="Enter your name" id="first-name" name="a-first-name">
+							</div>
+						</div>
+						<br/>
+						<div class = "row">
+							<div class="col-sm-6 col-sm-offset-3">
+								<label class="form-control-label" for="surname">Last name</label>
+								<input class="form-control" type="text" placeholder="Enter your surname" id="last-name" name="a-last-name">
+							</div>
+						</div>
+						<br/>
+						<div class = "row">
+							<div class="col-sm-6 col-sm-offset-3">
+								<label class="form-control-label" for="email">Email</label>
+								<input class="form-control" type="text" placeholder="Enter your email" id="email" name="a-email">
+							</div>
+						</div>
+						<br/>
+						<div class = "row">
+							<div class="col-sm-6 col-sm-offset-3">
+								<label class="form-control-label" for="describe-text">Subject</label>
+								<textarea class="form-control" id="describe-text" name="a-describe-text" placeholder="Subject" rows="4"></textarea>
+							</div>
 						</div>
 					</div>
 					<br/>
 					<div class = "row">
-						<div class="col-sm-6 col-sm-offset-3">
-							<label class="form-control-label" for="surname">Surname</label>
-							<input class="form-control" type="text" placeholder="Enter your surname" id="surname" name="a-surname">
-						</div>
-					</div>
-					<br/>
-					<div class = "row">
-						<div class="col-sm-6 col-sm-offset-3">
-							<label class="form-control-label" for="email">Email</label>
-							<input class="form-control" type="text" placeholder="Enter your email" id="email" name="an-email">
-						</div>
-					</div>
-					<br/>
-					<div class = "row">
-						<div class="col-sm-6 col-sm-offset-3">
-							<label class="form-control-label" for="describe-text">Subject</label>
-							<textarea class="form-control" id="describe-text" name="a-describe-text" placeholder="Subject" rows="4"></textarea>
+						<div class="form-group">
+							<div class="col-sm-6 col-sm-offset-5">
+								<input type="submit" value = "submit" class="btn btn-default btn-info btn-lg" onclick="return validateApplicationForm()">
+							</div>
 						</div>
 					</div>
 				</div>
-				<br/>
-				<div class = "row">
-					<div class="form-group">
-						<div class="col-sm-6 col-sm-offset-5">
-							<button type="submit" class="btn btn-default btn-info btn-lg" >Save</button>
-						</div>
-            		</div>
-				</div>
-			</div>
+			</form>
 		</div>
 	</div>
+	<div class= "text-center">
+		<p>Move Nepal a venture of IEC Nepal
+		<br/>For more information: Media Kit
+		</p>
 	</div>
 </div>
 
