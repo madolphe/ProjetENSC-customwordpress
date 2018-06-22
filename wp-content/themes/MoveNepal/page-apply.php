@@ -5,11 +5,9 @@ $subPages = get_pages('child_of=' . $topID);
 
 if ( have_posts() ) : the_post();
 	?>
-	<div class="row" id="page-content">
-		<div class="col-md-12">
-				<?php include 'ApplyForm.php';?>
-		</div>
-	</div>
+			<div class="container">
+								<?php include 'ApplyForm.php';?>
+
 	<?php
 endif; 
 ?>
@@ -19,4 +17,6 @@ endif;
 		<?php next_link(); ?>
 	</div>
 </div>
+			</div>
+
 <?php get_footer(); ?>
