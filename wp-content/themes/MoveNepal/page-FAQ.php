@@ -60,13 +60,13 @@ endif;
         <div class="col-sm-1"></div>
         <div class="col-sm-3 box-category">
             <div class="box-category">
-                <div class="panel panel-default">
-					<?php
-					foreach ($listeCategorie as $categorie){
-						echo "<div class=\"panel-body cat\"><a class=\"cat\" href=#".$categorie.">".$categorie."</a></div>";
-					}
-					?>
-                </div>
+                    <div class="panel panel-default cat">
+						<?php
+						foreach ($listeCategorie as $categorie){
+							echo "<div class=\"panel-body cat\"><a class=\"cat\" href=#".$categorie.">".$categorie."</a></div>";
+						}
+						?>
+                    </div>
             </div>
         </div>
         <div class="col-sm-1"></div>
@@ -95,14 +95,14 @@ endif;
 							$titre2=get_the_title();
 							if($titre!=$titre2){
 								$titre=get_the_title();
-								echo "<br><strong id=".$titre.">".$titre."</strong><br>";
+								echo "<br><div class='title-cat'><span id=".$titre.">".$titre."</span><br></div>";
 							}
 							?>
                             <div class="panel panel-default">
                                 <div class="panel-heading">
-                                    <h4 class="panel-title" >
+                                    <span class="panel-title" >
                                         <a data-toggle="collapse" data-parent="#accordion" href="#collapse<?php the_ID(); ?>"><?php the_field('question');?><span class="glyphicon glyphicon-menu-down pull-right"></span></a>
-                                    </h4>
+                                    </span>
                                 </div>
                                 <div id="collapse<?php echo the_ID(); ?>" class="panel-collapse collapse">
                                     <div class="panel-body">
