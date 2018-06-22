@@ -1,6 +1,6 @@
 <?php
 if (!($_SERVER["REQUEST_METHOD"] == "POST")){
-	include 'htmlForm.php';
+	include 'htmlContact.php';
 
 } else {
 	//check robot with captcha TURNED OFF FOR TESTING

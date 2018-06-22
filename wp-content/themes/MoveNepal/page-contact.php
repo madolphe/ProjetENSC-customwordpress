@@ -66,52 +66,8 @@
 			<br/>khomrajsharma@gmail.com
 		</div>
 	</div>
+	<?php include('contactForm.php') ?>
 	<br/>
-	<div class ="row">
-		<div class ="jumbotron col-sm-8 col-sm-offset-2">
-			<form action="" method="post" enctype="text/plain" id="application-form">
-
-				<div class="card-block">
-					<div class="form-group row">
-						<div class = "row">
-							<div class="col-sm-6 col-sm-offset-3">
-								<label class="form-control-label" for="name">First name</label>
-								<input class="form-control" type="text" placeholder="Enter your name" id="first-name" name="a-first-name">
-							</div>
-						</div>
-						<br/>
-						<div class = "row">
-							<div class="col-sm-6 col-sm-offset-3">
-								<label class="form-control-label" for="surname">Last name</label>
-								<input class="form-control" type="text" placeholder="Enter your surname" id="last-name" name="a-last-name">
-							</div>
-						</div>
-						<br/>
-						<div class = "row">
-							<div class="col-sm-6 col-sm-offset-3">
-								<label class="form-control-label" for="email">Email</label>
-								<input class="form-control" type="text" placeholder="Enter your email" id="email" name="a-email">
-							</div>
-						</div>
-						<br/>
-						<div class = "row">
-							<div class="col-sm-6 col-sm-offset-3">
-								<label class="form-control-label" for="describe-text">Subject</label>
-								<textarea class="form-control" id="describe-text" name="a-describe-text" placeholder="Subject" rows="4"></textarea>
-							</div>
-						</div>
-					</div>
-					<br/>
-					<div class = "row">
-						<div class="form-group">
-							<div class="col-sm-6 col-sm-offset-5">
-								<input type="submit" value = "submit" class="btn btn-default btn-info btn-lg" onclick="return validateApplicationForm()">
-							</div>
-						</div>
-					</div>
-				</div>
-		</div>
-	</div>
 	<div class= "text-center">
 		<p>Move Nepal a venture of IEC Nepal
 		<br/>For more information: Media Kit
