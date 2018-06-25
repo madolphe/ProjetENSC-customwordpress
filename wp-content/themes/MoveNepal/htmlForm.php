@@ -23,18 +23,18 @@
       <h2 class="card-title">Information about who you are</h2>
       <div class="card-block">
         <div class="form-group row">
-          <div class="col-6">
+          <div class="col-md-6">
             <label class="form-control-label" for="first-name">First Name</label>
             <input class="form-control" type="text" placeholder="Enter your first name" id="first-name" name="a-first-name">
           </div>
-          <div class="col-6">
+          <div class="col-md-6">
             <label class="form-control-label" for="last-name">Last Name</label>
             <input class="form-control" type="text" placeholder="Enter your last name" id="last-name" name="a-last-name">
           </div>
         </div>
         
         <div class="form-group row">
-          <div class="col-6">
+          <div class="col-md-6">
             <label class="form-control-label" for="gender">Gender</label>
             <select class="custom-select" id="gender" name="a-gender">
               <option value="" disabled selected>Select your gender</option>
@@ -43,7 +43,7 @@
               <option>Other</option>
             </select>
           </div>
-          <div class="col-6">
+          <div class="col-md-6">
             <label class="form-control-label" for="dob">Date of Birth</label>
             <input class="form-control" type="date" id="dob" name="a-dob">
           </div>
@@ -259,22 +259,22 @@
         <h5 class="card-title ml-3">Person 1</h5>
         <div class="card-block">
           <div class="form-group row">
-            <div class="col-6">
+            <div class="col-md-6">
               <label class="form-control-label" for="emergency1-first-name">First Name</label>
               <input class="form-control" type="text" placeholder="Enter the first name" id="emergency1-first-name" name="a-emergency1-first-name">
             </div>
-            <div class="col-6">
+            <div class="col-md-6">
               <label class="form-control-label" for="emergency1-last-name">Last Name</label>
               <input class="form-control" type="text" placeholder="Enter the last name" id="emergency1-last-name" name="a-emergency1-last-name">
             </div>
           </div>
           <div class="form-group row">
-            <div class="col-6">
+            <div class="col-md-6">
               <label class="form-control-label" for="emergency1-phone-number">Phone Number</label>
               <input class="form-control" type="tel" placeholder="+1-(555)-555-5555" id="emergency1-phone-number" name="a-emergency1-phone-number" aria-describedby="emergency1-phoneHelp">
               <small id="emergency1-phoneHelp" class="form-text text-muted">We'll never share your phone number with anyone else.</small>
             </div>
-            <div class="col-6">
+            <div class="col-md-6">
               <label class="form-control-label" for="emergency1-email">Email address</label>
               <input type="email" class="form-control" id="emergency1-email" name="a-emergency1-email" aria-describedby="emergency1-emailHelp" placeholder="Enter email">
               <small id="emergency1-emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
@@ -284,22 +284,22 @@
         <h5 class="card-title ml-3">Person 2</h5>
         <div class="card-block">
           <div class="form-group row">
-            <div class="col-6">
+            <div class="col-md-6">
               <label class="form-control-label" for="emergency2-first-name">First Name</label>
               <input class="form-control" type="text" placeholder="Enter the first name" id="emergency2-first-name" name="a-emergency2-first-name">
             </div>
-            <div class="col-6">
+            <div class="col-md-6">
               <label class="form-control-label" for="emergency2-last-name">Last Name</label>
               <input class="form-control" type="text" placeholder="Enter the last name" id="emergency2-last-name" name="a-emergency2-last-name">
             </div>
           </div>
           <div class="form-group row">
-            <div class="col-6">
+            <div class="col-md-6">
               <label class="form-control-label" for="emergency2-phone-number">Phone Number</label>
               <input class="form-control" type="tel" placeholder="+1-(555)-555-5555" id="emergency2-phone-number" name="a-emergency2-phone-number" aria-describedby="emergency2-phoneHelp">
               <small id="emergency2-phoneHelp" class="form-text text-muted">We'll never share your phone number with anyone else.</small>
             </div>
-            <div class="col-6">
+            <div class="col-md-6">
               <label class="form-control-label" for="emergency2-email">Email address</label>
               <input type="email" class="form-control" id="emergency2-email" name="a-emergency2-email" aria-describedby="emergency2-emailHelp" placeholder="Enter email">
               <small id="emergency2-emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
