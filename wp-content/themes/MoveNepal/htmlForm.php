@@ -50,20 +50,26 @@
         </div>
 
         <div class="form-group row">
+          <div class="col-md-12">
           <label class="form-control-label" for="nationality">Nationality</label>
           <input class="form-control" type="text" placeholder="Enter your nationality" id="nationality" name="a-nationality">
         </div>
+        </div>
         
         <div class="form-group row">
+          <div class="col-md-12">
           <label class="form-control-label" for="phone-number">Phone Number</label>
           <input class="form-control" type="tel" placeholder="+1-(555)-555-5555" aria-describedby="phoneHelp" id="phone-number" name="a-phone-number">
           <small id="phoneHelp" class="form-text text-muted">We'll never share your phone number with anyone else.</small>
         </div>
+      </div>
         
         <div class="form-group row">
+          <div class="col-md-12">
           <label class="form-control-label" for="email">Email address</label>
           <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="Enter email" id="email" name="a-email">
           <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
         </div>
       </div>
 
@@ -99,7 +105,7 @@
         ?>
 
         <div class="form-group row">
-          <div class="col-4">
+          <div class="col-md-6">
             <label class="form-control-label" for="start-date">When would you like to start?</label>
             <input class="form-control" type="date" id="start-date" name="a-start-date">
           </div>
@@ -107,11 +113,11 @@
             <label class="form-control-label" for="months">How many months?</label>
             <input class="form-control" type="number" value="0" id="months" name="a-months" readonly>
           </div> -->
-          <div class="col-4">
+          <div class="col-md-6">
             <label class="form-control-label" for="end-date">End date</label>
             <input class="form-control" type="date" value="" id="end-date" name="a-end-date">
           </div>
-          <small class="form-text text-muted">These dates are just to give us an idea! We will be in touch to finalize the dates :-)</small>
+          <small class="form-text text-muted text-center">These dates are just to give us an idea! We will be in touch to finalize the dates :-)</small>
         </div>
       </div>
 
@@ -126,31 +132,42 @@
       <div class="card-block">
 
         <div class="form-group row">
+          <div class="col-md-12">
           <label class="form-control-label" for="inspiration-text">What inspires you to join us?</label>
           <textarea class="form-control" id="inspiration-text" name="a-inspiration-text" rows="2"></textarea>
         </div>
+        </div>
 
         <div class="form-group row">
+                    <div class="col-md-12">
           <label class="form-control-label" for="skills-text">What specific skills will you bring and what do you hope to gain personally and professionally?</label>
           <textarea class="form-control" id="skills-text" name="a-skills-text" rows="2"></textarea>
         </div>
+      </div>
 
         <div class="form-group row">
+                    <div class="col-md-12">
         <label class="form-control-label" for="ideas-text">What kind of ideas can you bring to this project?</label>
           <textarea class="form-control" id="ideas-text" name="a-ideas-text" rows="2"></textarea>
         </div>
+      </div>
 
         <div class="form-group row">
+                    <div class="col-md-12">
           <label class="form-control-label" for="describe-text">How would you describe yourself as a person? (What are your strengths and weaknesses?)</label>
           <textarea class="form-control" id="describe-text" name="a-describe-text" rows="2"></textarea>
         </div>
+      </div>
 
         <div class="form-group row">
+                    <div class="col-md-12">
           <label class="mr-2" for="english-level">How would you classify your English skills?</label>
           <span class="mx-2">I can speak some</span><input type="range" name="a-english-level" id="english-level" value="50" min="0" max="100"><span class="mx-2">I am bilingual</span>
         </div>
+      </div>
 
         <div class="form-group row">
+                    <div class="col-md-12">
           <label class="form-control-label">Are you open and interested to learn Nepali?</label>
           <div class="pl-3 form-check form-check-inline">
             <label class="custom-control custom-radio">
@@ -159,7 +176,9 @@
               <span class="custom-control-description">Yes</span>
             </label>
           </div>
+        </div>
           <div class="form-check form-check-inline">
+                      <div class="col-md-12">
             <label class="custom-control custom-radio">
               <input class="custom-control-input" type="radio" name="a-learn-nepali" value="no">
               <span class="custom-control-indicator"></span>
@@ -167,8 +186,10 @@
             </label>
           </div>
         </div>
+        </div>
 
         <div class="form-group row">
+                    <div class="col-md-12">
           <label class="form-control-label">Do you have a disability?</label>
           <div class="pl-3 form-check form-check-inline">
             <label class="custom-control custom-radio">
@@ -177,7 +198,9 @@
               <span class="custom-control-description">Yes</span>
             </label>
           </div>
+        </div>
           <div class="form-check form-check-inline">
+                      <div class="col-md-12">
             <label class="custom-control custom-radio" for="disability-false">
               <input class="custom-control-input" type="radio" name="a-disability-radio" id="disability-false" value="no">
               <span class="custom-control-indicator"></span>
@@ -185,12 +208,16 @@
             </label>
           </div>
         </div>
+        </div>
         <div class="offset-1 form-group row hidden-xs-up" id="disability-div">
+                    <div class="col-md-12">
           <label class="form-control-label" for="disability-text">What kind of disability do you have?</label>
           <textarea class="form-control" id="disability-text" name="a-disability-text" rows="1"></textarea>
         </div>
+      </div>
 
         <div class="form-group row">
+                    <div class="col-md-12">
           <label class="form-control-label">Do you have any problems living in a family with a different religion?</label>
           <div class="pl-3 form-check form-check-inline">
             <label class="custom-control custom-radio">
@@ -199,7 +226,9 @@
               <span class="custom-control-description">Yes</span>              
             </label>
           </div>
+        </div>
           <div class="form-check form-check-inline">
+                      <div class="col-md-12">
             <label class="custom-control custom-radio">
               <input class="custom-control-input" type="radio" id="religion-living-radio-false" name="a-religion-living-radio" value="no">
               <span class="custom-control-indicator"></span>
@@ -207,8 +236,10 @@
             </label>
           </div>
         </div>
+        </div>
 
         <div class="form-group row">
+                    <div class="col-md-12">
           <label class="form-control-label">Are you a vegetarian?</label>
           <div class="pl-3 form-check form-check-inline">
             <label class="custom-control custom-radio">
@@ -217,7 +248,9 @@
               <span class="custom-control-description">Yes</span>              
             </label>
           </div>
+          </div>
           <div class="form-check form-check-inline">
+                      <div class="col-md-12">
             <label class="custom-control custom-radio">
               <input class="custom-control-input" type="radio" name="a-vegetarian-radio" value="no">
               <span class="custom-control-indicator"></span>
@@ -225,8 +258,10 @@
             </label>
           </div>
         </div>
+        </div>
 
         <div class="form-group row">
+                    <div class="col-md-12">
           <label class="form-control-label">Have you done any volunteering in the past?</label>
           <div class="pl-3 form-check form-check-inline">
             <label class="custom-control custom-radio">
@@ -235,7 +270,9 @@
               <span class="custom-control-description">Yes</span>              
             </label>
           </div>
+        </div>
           <div class="form-check form-check-inline">
+                      <div class="col-md-12">
             <label class="custom-control custom-radio">
               <input class="custom-control-input" type="radio" name="a-volunteering-radio" id="volunteering-false" value="no">
               <span class="custom-control-indicator"></span>
@@ -243,10 +280,13 @@
             </label>
           </div>
         </div>
+        </div>
         <div class="offset-1 form-group row hidden-xs-up" id="volunteering-div">
+                    <div class="col-md-12">
           <label class="form-control-label" for="volunteering-text">What kind of volunteering?</label>
           <textarea class="form-control" id="volunteering-text" name="a-volunteering-text" rows="2"></textarea>
         </div>
+      </div>
       </div>
       <div class="row">
         <button type="button" class="offset-1 btn btn-primary btn-sm" name="link-form-part-2">Previous</button>
@@ -317,27 +357,33 @@
       <div class="card-block">
 
         <div class="form-group row">
+                    <div class="col-md-12">
           <label class="form-control-label" for="heard-about-us">How did you hear about us?</label>
           <textarea class="form-control" id="heard-about-us" name="a-heard-about-us" rows="3"></textarea>
         </div>
+      </div>
 
         <!-- besoin de trouver une solution qui mets le nom du fichier une fois uploadé -->
         <div class="form-group row">
-
+          <div class="col-md-12">
           Select image to upload:
-          <label class="custom-file ml-3">
-            <input class="custom-file-input" type="file" name="a-photo" id="photo">
-            <span class="custom-file-control"></span>
+          <label class="custom-file col-md-3">
+            <input type="file" name="a-photo" id="photo">
+            <span class="form-controle-file"></span>
           </label>
           <small class="form-text text-muted">Please add one picture of yourself, which will help us when picking you up at the bus station in Pokhara.</small>
         </div>
+      </div>
 
         <div class="form-group row">
+          <div class="col-md-12">
           <label class="form-control-label" for="more-info">Anything else you'd like us to know?</label>
           <textarea class="form-control" id="more-info" name="a-more-info" rows="3"></textarea>
         </div>
+      </div>
 
         <div class="form-group">
+                    <div class="col-md-12">
           <label class="custom-control custom-checkbox">
             <input type="checkbox" class="custom-control-input" id="terms-conditions">
             <span class="custom-control-indicator"></span>
@@ -345,6 +391,7 @@
             <small class="form-text text-muted"></small>
           </label>
         </div>
+      </div>
 
       </div>
 
