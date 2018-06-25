@@ -39,7 +39,7 @@ if(have_posts()):
                                     </div>
 
 
-                                    <div class="col-md-3 col-lg-3 col-xs-3  border-right footer_div">
+                                    <div class="col-md-3 col-lg-3 col-xs-3 footer_center border-right footer_div">
 
                                         <div class="footer_police">
                                             <strong><?php echo get_field('title_1') ;?></strong>
@@ -59,11 +59,11 @@ if(have_posts()):
                                         </div>
 
                                     </div>
-                                    <div class="col-md-3 col-lg-3 col-xs-3 border-right footer_div"> <?php
+                                    <div class="col-md-3 col-lg-3 col-xs-3 div_3 border-right footer_div"> <?php
                                         wp_nav_menu(array('theme_location'=>'secondary')); ?>
                                     </div>
 
-                                    <div class="col-md-3 col-lg-3 col-xs-3 footer_div div_4">
+                                    <div class="col-md-3 col-lg-3 col-xs-3 footer_div div_4 footer_center">
                                         <div class="footer_police"><a href="mailto:info@move-nepal.org"> <?php echo get_field('email') ;?> </a> </div>
                                         <div class="footer_police"><a href="tel:+97761441947"><?php echo get_field('phone') ;?></a></div>
                                         <div class="footer_police" href="betterplace.org"><a href="http://facebook.com">

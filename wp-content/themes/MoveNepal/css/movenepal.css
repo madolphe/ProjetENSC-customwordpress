@@ -1204,6 +1204,19 @@ footer .row .border-right{
 
 .div_4 .footer_police{margin-top: 50px !important;}
 
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="footer_div"] {
+    width: 100%;
+text-align: justify;
+
+}
+  [class*="div_3"]{margin-left: 60px;}
+  [class*="footer_center"] {margin-left: 100px;}
+  [class*="div_4"]{margin-bottom: 10px;}
+
+
+}
 
 /*--------------
 
@@ -1264,6 +1277,6 @@ padding: 4px;
   color: #ACB7C0 !important;
 }
 
-.breadcrumb > .active{
-  color : black !important;
+.breadcrumb > .active {
+  color: black !important;
 }
