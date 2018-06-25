@@ -1188,9 +1188,10 @@ footer .row .border-right{
 
 .footer_div ol, ul{list-style: none;}
 .footer_div ol, ul,li{list-style: none; margin-top: 15px;}
+.footer_div ol, ul, li, a {color:white!important;}
 .footer_div ol, .footer_div ul,.footer_div li :hover {list-style: none; margin-top: 10px; text-decoration: none;}
 
-.footer_div{height: 180px; margin-top: 2%; margin-bottom: 2%}
+.footer_div{height: 180px; margin-top: 2%; margin-bottom: 2%;}
 .container2{height: auto;}
 
 .div_4 .footer_police{margin-top: 30px !important;}
@@ -1239,28 +1240,6 @@ padding: 4px;
 #cd-timeline p, #cd-timeline img  {
   margin-bottom: 13px !important;
 }
-
-.footer_police {
-  color:white; 
-  text-align: center;
-}
-
-.footer_div ol, .footer_div ul{
-  list-style: none;
-}
-.footer_div ol,.footer_div ul, .footer_div li{
-  list-style: none; 
-  margin-top: 10px;
-}
-.footer_div ol, .footer_div ul, .footer_div li:hover {
-  list-style: none; 
-  margin-top: 10px; 
-  text-decoration: none;
-}
-.footer_div{
-  height: 170px;
-}
-
 
 
 
