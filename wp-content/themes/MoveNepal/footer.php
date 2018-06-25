@@ -29,8 +29,8 @@ if(have_posts()):
                         <div class="row container2">
 
 
-                                    <div class="col-md-3 border-right footer_div">
-                                        <div class="footer_logo">
+                                    <div class="col-md-3 col-xs-3 border-right footer_div">
+                                        <div class="footer_logo" >
                                             <img src="<?php echo get_field('logo')['url']; ?>">
                                         </div>
                                         <div class="footer_police adress">
@@ -39,7 +39,7 @@ if(have_posts()):
                                     </div>
 
 
-                                    <div class="col-md-3 border-right footer_div">
+                                    <div class="col-md-3 col-xs-3 border-right footer_div">
 
                                         <div class="footer_police">
                                             <strong><?php echo get_field('title_1') ;?></strong>
@@ -59,12 +59,11 @@ if(have_posts()):
                                         </div>
 
                                     </div>
-
-                                    <div class="col-md-3 border-right footer_div"> <?php
+                                    <div class="col-md-3 col-xs-3 border-right footer_div"> <?php
                                         wp_nav_menu(array('theme_location'=>'secondary')); ?>
                                     </div>
 
-                                    <div class="col-md-3 footer_div div_4">
+                                    <div class="col-md-3 col-xs-3 footer_div div_4">
                                         <div class="footer_police"><a href="mailto:info@move-nepal.org"> <?php echo get_field('email') ;?> </a> </div>
                                         <div class="footer_police"><a href="tel:+97761441947"><?php echo get_field('phone') ;?></a></div>
                                         <div class="footer_police" href="betterplace.org"><a href="http://facebook.com">

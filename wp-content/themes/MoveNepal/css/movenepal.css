@@ -570,7 +570,6 @@ a.cat{
   background-position: center;
   position: relative;
 
-
 }
 
 
@@ -1170,12 +1169,12 @@ footer .row{
   background-color: #62B2C1;
 }
 footer .row .border-right{
-  border-right: 1px solid white;
+  border-right: 1px solid white; height: 100%;
 }
 
-.footer_logo img {  height: 70px !important; margin-top: 30px; display: block;
+.footer_logo img {  height: 70% !important; margin-top: 30px; display: block; width: 70%;
   margin-left: auto;
-  margin-right: auto;}
+  margin-right: auto; position: relative;}
 
 .footer_police.adress {text-align: center; margin-top: 20px;}
 
@@ -1187,11 +1186,11 @@ footer .row .border-right{
 .footer_police.logo2 img {height: 32px;}
 
 .footer_div ol, ul{list-style: none;}
-.footer_div ol, ul,li{list-style: none; margin-top: 15px;}
+.footer_div ol, ul,li{list-style: none; margin-top: 15px; margin-left: 0 !important;}
 .footer_div ol, ul, li, a {color:white!important;}
 .footer_div ol, .footer_div ul,.footer_div li :hover {list-style: none; margin-top: 10px; text-decoration: none;}
 
-.footer_div{height: 180px; margin-top: 2%; margin-bottom: 2%;}
+.footer_div{height: 20%; margin-top: 2%; margin-bottom: 2%;}
 .container2{height: auto;}
 
 .div_4 .footer_police{margin-top: 30px !important;}
