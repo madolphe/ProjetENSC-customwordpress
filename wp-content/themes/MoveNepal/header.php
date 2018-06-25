@@ -30,15 +30,15 @@
     <div class="container-fluid navb">
 
         <div class="row ligne1 text-center">
-            <div class="col-sm-3">
-                <img src="<?php echo bloginfo('template_directory')?>/images/f.png">
+            <div class="col-sm-3 header_logo">
+                <img src="<?php echo bloginfo('template_directory')?>/images/logo4.png">
             </div>
             <div class="col-sm-5"></div>
             <div class="col-sm-2 experience">
                 <strong> <?php bloginfo('description')?> </strong>
             </div>
-            <div class="col-sm-2">
-                <button type="button" class="btn apply"> <a href=<?php bloginfo('template_directory') ?>"/page-contact.php"?> <strong>APPLY</strong> </a>   <img src="<?php echo bloginfo('template_directory')?>/images/right-arrow.png"></button>
+            <div class="col-sm-2 ">
+                <button type="button" class="btn apply"> <a href=<?php bloginfo('template_directory') ?>"/page-contact.php"?> <strong>APPLY</strong> <img src="<?php echo bloginfo('template_directory')?>/images/right-arrow.png"></a></button>
             </div>
         </div>
 
