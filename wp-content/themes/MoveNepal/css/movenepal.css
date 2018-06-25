@@ -69,7 +69,6 @@
     overflow: hidden;
 }
 .video_row {
-    min-height: 100vh;
     width: 100%;
 }
 #video-text{
@@ -250,7 +249,7 @@ Triangle breadcrumb
   .cd-breadcrumb.triangle li > * {
     position: relative;
     padding: 0.5em .4em 0.5em 1.75em;
-    color: #2c3f4c;
+    color: black;
     background-color: #edeff0;
     /* the border color is used to style its ::after pseudo-element */
     border-color: #edeff0;
@@ -272,7 +271,6 @@ Triangle breadcrumb
   .no-touch .cd-breadcrumb.triangle a:hover {
     /* steps already visited */
     color: #ffffff;
-    background-color: #2c3f4c;
     border-color: #2c3f4c;
   }
   .cd-breadcrumb.triangle li::after, .cd-breadcrumb.triangle li > *::after {
@@ -611,7 +609,6 @@ a.cat{
   color: white !important;
   height: 20%;
 }
- a{color:white !important;}
 .centre{vertical-align: middle;}
 
 .titre{
@@ -1183,3 +1180,40 @@ font-size:1.2em; color: #707070; text-align: justify;}
   display: block; !important;
 }
 
+#cd-timeline .cd-timeline-content {
+  box-shadow: 0 3px 8px #B9C5CD !important;
+}
+
+.cd-timeline-content {
+  background: white !important;
+  font-family: 'quicksand';
+}
+
+.cd-timeline-img {
+    width: 40px !important;
+    height: 40px !important;
+    left: 50% !important;
+    margin-left: -20px !important;
+    }
+
+    #cd-timeline span.fa {
+    line-height: 40px !important;
+}
+
+.timeline-express-read-more-link {
+    position: relative;
+    z-index: 10;
+}
+
+.cd-timeline-content .the-excerpt a {
+background: #ACB7C0;
+color: white;
+margin-top: 10px;
+border-radius: 5px;
+font-family: quicksand;
+padding: 4px;
+}
+
+#cd-timeline p, #cd-timeline img  {
+  margin-bottom: 13px !important;
+}
