@@ -89,7 +89,4 @@
         </ol>
         
 </div>
-
-
-    <!-- il est possible de determiner si on est sur la frontpage ou non avec is_front_page() -->
 </header>
