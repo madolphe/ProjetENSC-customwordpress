@@ -1238,5 +1238,16 @@ padding: 4px;
 
 .shadow_container {
    box-shadow: 0 3px 8px #B9C5CD !important;
- 
+}
+
+.breadcrumb {
+  background-color: white !important;
+}
+
+.breadcrumb-item, .breadcrumb-item a {
+  color: #ACB7C0 !important;
+}
+
+.breadcrumb > .active{
+  color : black !important;
 }
