@@ -21,6 +21,7 @@
 	while(have_posts()):
 
 			the_post();
+			the_title('<div class="container"><h2>','</h2></div>');
 			the_post_thumbnail();
 			the_content();
 	endwhile;

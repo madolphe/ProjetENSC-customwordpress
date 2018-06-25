@@ -31,6 +31,7 @@ if(have_posts()):
     //On reset la loop
     while(have_posts()):
 		the_post();
+		the_title('<div class="container"><h2>','</h2></div>');
     //on met toutes les questions rep dans la variable suivante
 		$faqs_posts = get_posts(array(
 			'post_type' => 'faqs',
