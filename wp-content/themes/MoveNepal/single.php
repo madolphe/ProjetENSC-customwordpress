@@ -1,6 +1,11 @@
 <!-- page d'exemple que nous n'utiliserons certainement pas mais le mieux serait d'uitiliser l'ID unique de la page -->
 <?php get_header(); ?>
 
+<?php
+$thumb = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full' );?>
+
+<?php include_once ('banniere.php');?>
+
 <div class="row titre">
     <div class="col-sm-1"></div>
     <div class="col-sm-11">

@@ -50,10 +50,12 @@ if(have_posts()):
 
     <div class="row" >
         <div class="boite text-center">
-            <div class="square" style="background-image: url('<?php echo get_field('image')['url']; ?>')"></div>
+            <a  href="<?php echo get_permalink(); ?>">
+            <div class="square"  style="background-image: url('<?php echo get_field('image')['url']; ?>')"></div>
             <div class="caption">
-                <p class="titre_projects"><a href="<?php echo get_permalink(); ?>"><?php the_title();?></a></p>
+                <p class="titre_projects"><?php the_title();?></p>
             </div>
+            </a>
         </div>
     </div>
     </div>
