@@ -23,11 +23,9 @@
 
 .dropdown-divider{color:white;}
 
+
 .dropdown-menu .divider{height: 1px !important;}
-.navb
-{
-    padding-top: 1%;
-}
+
 .navbar-nav .dropdown-menu>li>a { color: white}
 .apply
 {
@@ -53,7 +51,7 @@
     font-size: 20px;
 
 }
-.ligne1 {min-width: 100%; height: 50% !important;    background-color: RGB(0,146,170);
+.ligne1 {min-width: 100%; min-height: 100% !important;    background-color: RGB(0,146,170);
 }
 .row.ligne2{min-width: 100%; height: 20%; color: white;}
 .glyphicon.glyphicon-arrow-right{width: 10px;}
@@ -69,8 +67,8 @@
     overflow: hidden;
 }
 .video_row {
-    min-height: 100vh;
     width: 100%;
+    height: 100vh;
 }
 #video-text{
     color:white;
@@ -94,12 +92,7 @@ img.down-arrow{
 .fleche{
     margin-top: 10vh;
 }
-footer .row{
-    background-color: #62B2C1;
-}
-footer .row .border-right{
-    border-right: 1px solid white;
-}
+
 
 .navbar-default .navbar-nav>li>a { color : white !important;}
 
@@ -113,22 +106,9 @@ footer .row .border-right{
 
 
 
-
-
-
-
 /* -------------------------------- 
 
-Primary style
-
--------------------------------- */
-
-
-
-/* -------------------------------- 
-
-Basic Style
-
+Fil d'ariane
 -------------------------------- */
 .cd-breadcrumb, .cd-multi-steps {
   width: 100%;
@@ -228,11 +208,6 @@ Basic Style
   }
 }
 
-/* -------------------------------- 
-
-Triangle breadcrumb
-
--------------------------------- */
 @media only screen and (min-width: 768px) {
   .cd-breadcrumb.triangle {
     /* reset basic style */
@@ -250,7 +225,7 @@ Triangle breadcrumb
   .cd-breadcrumb.triangle li > * {
     position: relative;
     padding: 0.5em .4em 0.5em 1.75em;
-    color: #2c3f4c;
+    color: black;
     background-color: #edeff0;
     /* the border color is used to style its ::after pseudo-element */
     border-color: #edeff0;
@@ -272,7 +247,6 @@ Triangle breadcrumb
   .no-touch .cd-breadcrumb.triangle a:hover {
     /* steps already visited */
     color: #ffffff;
-    background-color: #2c3f4c;
     border-color: #2c3f4c;
   }
   .cd-breadcrumb.triangle li::after, .cd-breadcrumb.triangle li > *::after {
@@ -353,8 +327,7 @@ Custom icons hover effects - breadcrumb and multi-steps
 }
 /* -------------------------------- 
 
-Multi steps indicator 
-
+Apply form
 -------------------------------- */
 @media only screen and (min-width: 768px) {
   .cd-multi-steps {
@@ -595,18 +568,8 @@ a.cat{
   background-position: center;
   position: relative;
 
+}
 
-}
-.footer_logo
-{
-    margin-top: 10px;
-    margin-bottom: 20px;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    width: auto;
-    padding-bottom: 35%;
-}
 
 .boite {
   position: relative;
@@ -623,7 +586,6 @@ a.cat{
   color: white !important;
   height: 20%;
 }
- a{color:white !important;}
 .centre{vertical-align: middle;}
 
 .titre{
@@ -1195,9 +1157,101 @@ p .sous-titre{font-family: Avenir;font-size: 1.4em; color :#707070; text-align: 
   display: block; !important;
 }
 
-.footer_police {color:white; text-align: center;}
+/*--------------
 
-ol, ul{list-style: none;}
-ol, ul,li{list-style: none; margin-top: 10px}
-ol, ul,li :hover {list-style: none; margin-top: 10px; text-decoration: none;}
-.footer_div{height: 170px}
+FOOTER
+
+-------------------*/
+
+footer .row{
+  background-color: #62B2C1;
+}
+footer .row .border-right{
+  border-right: 1px solid white; height: 250px;
+}
+
+.footer_logo img {  height: 70% !important; margin-top: 30px; display: block; width: 70%;
+  margin-left: auto;
+  margin-right: auto; position: relative;}
+
+.footer_police.adress {text-align: center; margin-top: 20px;}
+
+.footer_police {color:white; text-align: justify; margin-top: 10px;}
+
+.footer_police.contain{font-size: 13px; font-family: Avenir;}
+
+.footer_police img {height: 28px;}
+.footer_police.logo2 img {height: 32px;}
+
+.footer_div ol, ul{list-style: none;}
+.footer_div ol, ul,li{list-style: none; margin-top: 15px; margin-left: 0 !important;}
+.footer_div ol, ul, li, a {color:white!important;}
+.footer_div ol, .footer_div ul,.footer_div li :hover {list-style: none; margin-top: 10px; text-decoration: none;}
+
+.container2{height: 100%;}
+
+.div_4 .footer_police{margin-top: 30px !important;}
+
+
+/*--------------
+
+FIN FOOTER
+
+-------------------*/
+
+
+#cd-timeline .cd-timeline-content {
+  box-shadow: 0 3px 8px #B9C5CD !important;
+}
+
+.cd-timeline-content {
+  background: white !important;
+  font-family: 'quicksand';
+}
+
+.cd-timeline-img {
+    width: 40px !important;
+    height: 40px !important;
+    left: 50% !important;
+    margin-left: -20px !important;
+    }
+
+    #cd-timeline span.fa {
+    line-height: 40px !important;
+}
+
+.timeline-express-read-more-link {
+    position: relative;
+    z-index: 10;
+}
+
+.cd-timeline-content .the-excerpt a {
+background: #ACB7C0;
+color: white;
+margin-top: 10px;
+border-radius: 5px;
+font-family: quicksand;
+padding: 4px;
+}
+
+#cd-timeline p, #cd-timeline img  {
+  margin-bottom: 13px !important;
+}
+
+
+
+.shadow_container {
+   box-shadow: 0 3px 8px #B9C5CD !important;
+}
+
+.breadcrumb {
+  background-color: white !important;
+}
+
+.breadcrumb-item, .breadcrumb-item a {
+  color: #ACB7C0 !important;
+}
+
+.breadcrumb > .active{
+  color : black !important;
+}
