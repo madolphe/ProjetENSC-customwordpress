@@ -95,12 +95,7 @@ img.down-arrow{
 .fleche{
     margin-top: 10vh;
 }
-footer .row{
-    background-color: #62B2C1;
-}
-footer .row .border-right{
-    border-right: 1px solid white;
-}
+
 
 .navbar-default .navbar-nav>li>a { color : white !important;}
 
@@ -576,18 +571,8 @@ a.cat{
   background-position: center;
   position: relative;
 
+}
 
-}
-.footer_logo
-{
-    margin-top: 10px;
-    margin-bottom: 20px;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    width: auto;
-    padding-bottom: 35%;
-}
 
 .boite {
   position: relative;
@@ -1175,6 +1160,49 @@ p .sous-titre{font-family: Avenir;font-size: 1.4em; color :#707070; text-align: 
   display: block; !important;
 }
 
+/*--------------
+
+FOOTER
+
+-------------------*/
+
+footer .row{
+  background-color: #62B2C1;
+}
+footer .row .border-right{
+  border-right: 1px solid white; height: 250px;
+}
+
+.footer_logo img {  height: 70% !important; margin-top: 30px; display: block; width: 70%;
+  margin-left: auto;
+  margin-right: auto; position: relative;}
+
+.footer_police.adress {text-align: center; margin-top: 20px;}
+
+.footer_police {color:white; text-align: justify; margin-top: 10px;}
+
+.footer_police.contain{font-size: 13px; font-family: Avenir;}
+
+.footer_police img {height: 28px;}
+.footer_police.logo2 img {height: 32px;}
+
+.footer_div ol, ul{list-style: none;}
+.footer_div ol, ul,li{list-style: none; margin-top: 15px; margin-left: 0 !important;}
+.footer_div ol, ul, li, a {color:white!important;}
+.footer_div ol, .footer_div ul,.footer_div li :hover {list-style: none; margin-top: 10px; text-decoration: none;}
+
+.container2{height: 100%;}
+
+.div_4 .footer_police{margin-top: 30px !important;}
+
+
+/*--------------
+
+FIN FOOTER
+
+-------------------*/
+
+
 #cd-timeline .cd-timeline-content {
   box-shadow: 0 3px 8px #B9C5CD !important;
 }
@@ -1212,28 +1240,6 @@ padding: 4px;
 #cd-timeline p, #cd-timeline img  {
   margin-bottom: 13px !important;
 }
-
-.footer_police {
-  color:white; 
-  text-align: center;
-}
-
-.footer_div ol, .footer_div ul{
-  list-style: none;
-}
-.footer_div ol,.footer_div ul, .footer_div li{
-  list-style: none; 
-  margin-top: 10px;
-}
-.footer_div ol, .footer_div ul, .footer_div li:hover {
-  list-style: none; 
-  margin-top: 10px; 
-  text-decoration: none;
-}
-.footer_div{
-  height: 170px;
-}
-
 
 
 
