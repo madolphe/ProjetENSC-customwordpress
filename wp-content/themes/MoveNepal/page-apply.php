@@ -18,7 +18,6 @@ while(have_posts()):
 		?>
 		<div class="container shadow_container">
 			<?php include 'ApplyForm.php';?>
-		?>
 		<div class="row">
 			<div class="col-sm-5 offset-sm-1">
 				<?php previous_link(); ?>

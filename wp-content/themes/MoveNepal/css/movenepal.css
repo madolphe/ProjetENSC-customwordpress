@@ -112,22 +112,9 @@ footer .row .border-right{
 
 
 
-
-
-
-
 /* -------------------------------- 
 
-Primary style
-
--------------------------------- */
-
-
-
-/* -------------------------------- 
-
-Basic Style
-
+Fil d'ariane
 -------------------------------- */
 .cd-breadcrumb, .cd-multi-steps {
   width: 100%;
@@ -227,11 +214,6 @@ Basic Style
   }
 }
 
-/* -------------------------------- 
-
-Triangle breadcrumb
-
--------------------------------- */
 @media only screen and (min-width: 768px) {
   .cd-breadcrumb.triangle {
     /* reset basic style */
@@ -351,8 +333,7 @@ Custom icons hover effects - breadcrumb and multi-steps
 }
 /* -------------------------------- 
 
-Multi steps indicator 
-
+Apply form
 -------------------------------- */
 @media only screen and (min-width: 768px) {
   .cd-multi-steps {
@@ -1250,6 +1231,9 @@ padding: 4px;
 .footer_div{
   height: 170px;
 }
+
+
+
 
 .shadow_container {
    box-shadow: 0 3px 8px #B9C5CD !important;
