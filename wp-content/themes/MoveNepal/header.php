@@ -27,7 +27,7 @@
 </div>
 
 <header>
-    <div class="container-fluid">
+    <div class="container-fluid navb">
 
         <div class="row ligne1 text-center">
             <div class="col-sm-3">
@@ -68,11 +68,27 @@
 							wp_nav_menu($arg);?>
                         </ul>
                     </div><!-- /.navbar-collapse -->
-                </div><!-- /.container-fluid -->
             </nav>
         </div>
 
     </div>
+    
+    
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="<?php echo get_home_url(); ?>"><?php bloginfo('name'); ?></a></li>
+            <?php 
+            $parentID = wp_get_post_parent_id( get_the_ID() );
+            while ($parentID){
+                ?>
+                <li class="breadcrumb-item"><a href="<?php echo get_page_link( $parentID ); ?>"><?php echo get_the_title( $parentID ); ?></a></li>
+                <?php
+                $parentID = wp_get_post_parent_id( $parentID );
+            }
+            ?>
+            <li class="breadcrumb-item active"><?php echo get_the_title(); ?></li>
+        </ol>
+        
+</div>
 
 
     <!-- il est possible de determiner si on est sur la frontpage ou non avec is_front_page() -->

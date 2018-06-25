@@ -1442,5 +1442,19 @@ jQuery(document).ready(function() {
 
 });
 
+jQuery(document).ready(function(){
+	// Add minus icon for collapse element which is open by default
+    jQuery(".collapse.in").each(function(){
+        jQuery(this).siblings(".panel-heading").find(".glyphicon").addClass("rotate");
+    });
+
+    // Toggle plus minus icon on show hide of collapse element
+    jQuery(".collapse").on('show.bs.collapse', function(){
+        jQuery(this).parent().find(".glyphicon").addClass("rotate");
+    }).on('hide.bs.collapse', function(){
+        jQuery(this).parent().find(".glyphicon").removeClass("rotate");
+    });
+});
+
 
 
