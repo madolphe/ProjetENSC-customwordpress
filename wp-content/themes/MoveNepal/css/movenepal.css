@@ -71,6 +71,7 @@
 }
 .video_row {
     width: 100%;
+    height: 100vh;
 }
 #video-text{
     color:white;

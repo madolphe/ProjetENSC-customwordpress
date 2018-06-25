@@ -135,7 +135,7 @@ function sendForm($formElements){
 	$mail->Port = 465;                                    // TCP port to connect to
 
 	$mail->setFrom($formElements['email'], $formElements['full-name']);
-	$mail->addAddress('aloizel@ensc.fr', 'Antoine');     // Add a recipient
+	$mail->addAddress('movenepalvolunteer@gmail.com', 'MoveNepal');     // Add a recipient
 	$mail->addReplyTo($formElements['email'], $formElements['full-name']);
 
 	//$mail->isHTML(true);                                  // Set email format to HTML
