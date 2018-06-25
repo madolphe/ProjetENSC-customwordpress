@@ -1160,7 +1160,6 @@ p .sous-titre{font-family: Avenir;font-size: 1.4em; color :#707070; text-align: 
   display: block; !important;
 }
 
-<<<<<<< HEAD
 /*--------------
 
 FOOTER
@@ -1195,7 +1194,14 @@ footer .row .border-right{
 .container2{height: auto;}
 
 .div_4 .footer_police{margin-top: 30px !important;}
-=======
+
+/*--------------
+
+FIN FOOTER
+
+-------------------*/
+
+
 #cd-timeline .cd-timeline-content {
   box-shadow: 0 3px 8px #B9C5CD !important;
 }
@@ -1262,4 +1268,3 @@ padding: 4px;
    box-shadow: 0 3px 8px #B9C5CD !important;
  
 }
->>>>>>> 67dbf79cb105d28cfc3e3916cf615f1410fab7ba
