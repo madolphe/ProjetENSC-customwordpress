@@ -73,8 +73,8 @@
 
     </div>
     
-    
-        <ol class="breadcrumb">
+    <div class="container">
+                <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="<?php echo get_home_url(); ?>"><?php bloginfo('name'); ?></a></li>
             <?php 
             $parentID = wp_get_post_parent_id( get_the_ID() );
@@ -87,6 +87,6 @@
             ?>
             <li class="breadcrumb-item active"><?php echo get_the_title(); ?></li>
         </ol>
-        
-</div>
+    </div>
+
 </header>

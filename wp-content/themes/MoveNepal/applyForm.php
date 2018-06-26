@@ -14,7 +14,7 @@ if (!($_SERVER["REQUEST_METHOD"] == "POST")){
 
 		$formValid = true;
 
-		$textElements = array('first-name','last-name','gender','email','nationality','inspiration-text','skills-text','ideas-text','describe-text','emergency1-first-name','emergency1-last-name','emergency2-first-name','emergency2-last-name','heard-about-us','more-info');
+		$textElements = array('first-name','last-name','gender','dob','nationality','phone-number','email','start-date','end-date','inspiration-text','skills-text','ideas-text','describe-text','english-level','disability-text', 'volunteering-text', 'emergency1-first-name', 'emergency1-last-name', 'emergency1-phone-number', 'emergency1-email', 'emergency2-first-name', 'emergency2-last-name', 'emergency2-phone-number', 'emergency2-email', 'heard-about-us', 'more-info');
 		$prefix = 'a-';
 
 		foreach($textElements as $key){
@@ -135,7 +135,7 @@ function sendForm($formElements){
 	$mail->Port = 465;                                    // TCP port to connect to
 
 	$mail->setFrom($formElements['email'], $formElements['full-name']);
-	$mail->addAddress('aloizel@ensc.fr', 'Antoine');     // Add a recipient
+	$mail->addAddress('movenepalvolunteer@gmail.com', 'MoveNepal');     // Add a recipient
 	$mail->addReplyTo($formElements['email'], $formElements['full-name']);
 
 	//$mail->isHTML(true);                                  // Set email format to HTML
@@ -144,7 +144,7 @@ function sendForm($formElements){
 
 	$body = "<h1>Hey Khom! You've got a new application! Here's the rundown:</h1>";
 	foreach($formElements as $key=>$value){
-		$body .= '<br><strong>' . $key . ':</strong> ' . $value;
+		$body .= '<br><strong>' . $key . ':</strong> ' . $value . '<br/>';
 	}
 
 	$mail->Body = $body;

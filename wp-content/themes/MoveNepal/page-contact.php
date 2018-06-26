@@ -19,14 +19,28 @@
 <?php
 	if(have_posts()):
 	while(have_posts()):
-
 			the_post();
+			the_title('<div class="container"><h2>','</h2></div>');
 			the_post_thumbnail();
 			the_content();
 	endwhile;
 	endif;
 ?>
 <hr>
+	<?php 
+	$contact = get_posts(array(
+		'post_type' => 'Contact',
+		'posts_per_page' => -1, //posts illimités
+	));
+	?>
+	<div class="row">
+	<?php
+	foreach($contact as $content)
+	{
+		echo '<div class = "col-sm-3 col-sm-offset-2">'.$content.'</div>';
+	}
+	?>
+	</div>
 
 	<div class = "row">
 		<div class = "col-sm-3 col-sm-offset-2">
@@ -34,7 +48,7 @@
 			<br/>Pokhara – 16, Shanti Deep. 
 			<br/>Kaski District -Nepal
 		</div>
-		<div class = "col-sm-3 border-left border-right">
+		<div class = "col-sm-3">
 			<strong>Phone</strong>
 			<br/>+977  61441947
 			<br/><strong>Mobile</strong>
@@ -46,7 +60,12 @@
 			<br/>khomrajsharma@gmail.com
 		</div>
 	</div>
-	<?php include('contactForm.php') ?>
+	<br/>
+	<div class = "row">
+		<div class= "jumbotron col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2">
+			<?php include('contactForm.php') ?>
+		</div>
+	</div>
 	<br/>
 	<div class= "text-center">
 		<p>Move Nepal a venture of IEC Nepal
