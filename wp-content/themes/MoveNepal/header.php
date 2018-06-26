@@ -40,6 +40,7 @@
             <div class="col-sm-2 ">
                 <button type="button" class="btn apply"> <a href=<?php bloginfo('template_directory') ?>"/page-contact.php"?> <strong>APPLY</strong> <img src="<?php echo bloginfo('template_directory')?>/images/right-arrow.png"></a></button>
             </div>
+            
         </div>
 
         <div class="row ligne2">
