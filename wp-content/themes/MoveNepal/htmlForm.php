@@ -1,3 +1,4 @@
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <form action="" method="post" enctype="multipart/form-data" id="application-form">
   <nav>
     <ol class="cd-multi-steps text-center">
