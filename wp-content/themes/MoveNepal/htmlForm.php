@@ -75,7 +75,7 @@
       </div>
 
       <div class="row">
-        <button type="button" class="offset-10 btn btn-primary btn-sm" name="link-form-part-2">Next</button>
+        <button type="button" class="offset-10 btn btn-primary btn-sm pull-right" name="link-form-part-2">Next</button>
       </div>
     </div>
 
@@ -123,8 +123,8 @@
       </div>
 
       <div class="row">
-        <button type="button" class="offset-1 btn btn-primary btn-sm" name="link-form-part-1">Previous</button>
-        <button type="button" class="offset-8 btn btn-primary btn-sm" name="link-form-part-3">Next</button>
+        <button type="button" class="offset-1 btn btn-primary btn-sm pull-left" name="link-form-part-1">Previous</button>
+        <button type="button" class="offset-8 btn btn-primary btn-sm pull-right" name="link-form-part-3">Next</button>
       </div>
     </div>
     
@@ -251,8 +251,8 @@
         </div>
       </div>
       <div class="row">
-        <button type="button" class="offset-1 btn btn-primary btn-sm" name="link-form-part-2">Previous</button>
-        <button type="button" class="offset-8 btn btn-primary btn-sm" name="link-form-part-4">Next</button>
+        <button type="button" class="offset-1 btn btn-primary btn-sm pull-left" name="link-form-part-2">Previous</button>
+        <button type="button" class="offset-8 btn btn-primary btn-sm pull-right" name="link-form-part-4">Next</button>
       </div>
     </div>
 
@@ -309,8 +309,8 @@
           </div>
         </div>
       <div class="row">
-        <button type="button" class="offset-1 btn btn-primary btn-sm" name="link-form-part-3">Previous</button>
-        <button type="button" class="offset-8 btn btn-primary btn-sm" name="link-form-part-5">Next</button>
+        <button type="button" class="offset-1 btn btn-primary btn-sm pull-left" name="link-form-part-3">Previous</button>
+        <button type="button" class="offset-8 btn btn-primary btn-sm pull-right" name="link-form-part-5">Next</button>
       </div>
     </div>
 
@@ -360,10 +360,10 @@
 
       <div class="g-recaptcha" data-sitekey="6LcdDikUAAAAAHaxPLpFJvOF_NbRjzzliPXLDWSQ"></div>
       <br>
-      <input type="submit" name="submit" value="submit" class="btn btn-primary" onclick="return validateApplicationForm()">  
+      <input type="submit" name="submit" value="submit" class="btn btn-primary pull-right" onclick="return validateApplicationForm()">  
       <br>
       <div class="row">
-        <button type="button" class="offset-1 btn btn-primary btn-sm" name="link-form-part-4">Previous</button>
+        <button type="button" class="offset-1 btn btn-primary btn-sm pull-left" name="link-form-part-4">Previous</button>
       </div>
     </div>
   </form>

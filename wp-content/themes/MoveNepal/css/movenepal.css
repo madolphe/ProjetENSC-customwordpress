@@ -121,7 +121,7 @@ Fil d'ariane
   max-width: 100%;
   padding: 0.5em 1em;
   margin: 1em auto;
-  background-color: #edeff0;
+  background-color: #22CCA7;
   border-radius: .25em;
 }
 .cd-breadcrumb:after, .cd-multi-steps:after {
@@ -232,9 +232,9 @@ Fil d'ariane
     position: relative;
     padding: 0.5em .4em 0.5em 1.75em;
     color: black;
-    background-color: #edeff0;
+    background-color: #22CCA7;
     /* the border color is used to style its ::after pseudo-element */
-    border-color: #edeff0;
+    border-color: #22CCA7;
   }
   .cd-breadcrumb.triangle li.current > * {
     /* selected step */
@@ -356,7 +356,7 @@ Apply form
     position: absolute;
     content: '';
     height: 4px;
-    background: #edeff0;
+    background: #22CCA7;
     /* reset style */
     margin: 0;
   }
@@ -371,7 +371,7 @@ Apply form
   .cd-multi-steps.custom-separator li::after {
     /* reset style */
     height: 4px;
-    background: #edeff0;
+    background: #22CCA7;
   }
 
   .cd-multi-steps.text-center li::after {
@@ -388,7 +388,7 @@ Apply form
     z-index: 1;
     padding: .6em 1em;
     border-radius: .25em;
-    background-color: #edeff0;
+    background-color: #22CCA7;
   }
   .no-touch .cd-multi-steps.text-center a:hover {
     background-color: #2c3f4c;
@@ -1341,7 +1341,7 @@ PAGE HOME
 .Read_More {font-size: 15px; text-align: center; margin-top: 20px; margin-bottom: 70px;}
 .pagetitle{
     font-family: "bigjohn" !important;
-  font-size: 50px !important;
+  font-size: 40px !important;
   color: #707070;
 }
 
