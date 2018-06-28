@@ -5,8 +5,8 @@
 
 <div class="row titre">
     <div class="col-sm-1"></div>
-    <div class="col-sm-6">
-    <h1><strong>GET INVOLVED AND PROJECTS </strong></h1>
+    <div class="col-sm-8">
+    <h1 class="pagetitle"><strong>GET INVOLVED AND PROJECTS </strong></h1>
     </div>
 </div>
 
@@ -21,7 +21,6 @@ if(have_posts()):
 
         <?php
         the_post();
-        the_title('<div class="container"><h2>','</h2></div>');
         // Get 'valeurs' posts
         $projects_posts = get_posts(array(
             'post_type' => 'projects',
