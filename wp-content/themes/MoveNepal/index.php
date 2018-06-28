@@ -7,7 +7,7 @@ if(have_posts()):
 while(have_posts()):
 		the_post();
 		the_post_thumbnail();
-	    the_title('<h2>','</h2>');
+	    the_title('<h2 class="pagetitle">','</h2>');
 	    the_content();
 ?>
 	<hr>
