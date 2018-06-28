@@ -1,4 +1,5 @@
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
   <form action="" method="post" enctype="multipart/form-data" id="application-form">
   <nav>
     <ol class="cd-multi-steps text-center">
@@ -92,7 +93,7 @@
           while($the_query->have_posts()): $the_query->the_post();
             ?>
             <div class="form-check ml-5">
-              <label class="custom-control form-control-label custom-checkbox">
+              <label class="custom-control form-control-label custom-checkbox" id="nobold littletext">
                 <input class="custom-control-input" type="checkbox" name="a-select-project[]" value="<?php echo get_the_title(); ?>">
                 <span class="custom-control-indicator"></span>
                 <span class="custom-control-description"><?php echo get_the_title(); ?></span>
@@ -326,16 +327,22 @@
       </div>
 
         <!-- besoin de trouver une solution qui mets le nom du fichier une fois uploadé -->
-        <div class="form-group row">
-          <div class="col-md-12">
-          Select image to upload:
-          <label class="custom-file col-md-3">
-            <input type="file" name="a-photo" id="photo">
-            <span class="form-controle-file"></span>
-          </label>
-          <small class="form-text text-muted">Please add one picture of yourself, which will help us when picking you up at the bus station in Pokhara.</small>
+        <div class="col-md-4">
+          <div class="input-group input-file">
+  <div class="form-control">
+  </div>
+  <span class="input-group-addon">
+    <a class='btn btn-primary'>
+      Browse
+      <input type="file" name="a-photo" id="photo">
+    </a>
+  </span>
+</div>
         </div>
-      </div>
+           <small class="form-text text-muted">Please add one picture of yourself, which will help us when picking you up at the bus station in Pokhara.</small>
+
+
+
 
         <div class="form-group row">
           <div class="col-md-12">
