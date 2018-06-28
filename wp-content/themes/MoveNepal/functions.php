@@ -44,7 +44,6 @@ add_action('init','movenepal_theme_setup');
 add_theme_support('custom-background');
 add_theme_support('custom-header');
 add_theme_support('custom-thumbnails');
-
 require get_template_directory().'/inc/walker.php';
 include 'assets/inc/projects.php';
 include 'assets/inc/contact.php';
