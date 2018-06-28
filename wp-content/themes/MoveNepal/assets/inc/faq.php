@@ -27,7 +27,7 @@ function faq() {
 		'show_ui'            => true,
 		'show_in_menu'       => true,
 		'query_var'          => true,
-		'rewrite'            => array( 'slug' => 'faqs' ),
+		'rewrite'            => array( 'slug' => 'faq' ),
 		'capability_type'    => 'post',
 		'has_archive'        => true,
 		'hierarchical'       => false,
@@ -36,6 +36,6 @@ function faq() {
 		'menu_icon'          => 'dashicons-share-alt'
 	);
 
-	register_post_type( 'faqs', $args );
+	register_post_type( 'faq', $args );
 }
 ?>
