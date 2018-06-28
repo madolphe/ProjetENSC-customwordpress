@@ -49,7 +49,7 @@ src: url('../fonts/bigcaslon.ttf');
   width: 150px;
   border-radius: 30px !important;
   font-size: 18px !important;
-  padding: 1%;
+  padding: 2.5%;
   height: 60px;
   line-height:1.2; /* centrage vertical */
   margin-top: 30px;
@@ -1378,21 +1378,20 @@ PAGE HOME
   color: #707070;
   text-align: justify;}
 
-.home_the_association_title {text-align: center; font-size: 35px; color: black; margin-bottom: 30px;}
+.home_the_association_title {text-align: center; font-size: 35px; color: black; margin-top: 30px; margin-bottom: 50px;}
 
 .Read_More a{ font-family: avenir;
   font-size: 1.2em;
   color: #707070 !important;
   text-align: justify;}
 
-.Read_More {font-size: 15px; text-align: center; margin-top: 20px; margin-bottom: 70px;}
+.Read_More {font-size: 15px; text-align: center; margin-top: 50px; margin-bottom: 70px; }
+.Read_More a {font-family: 'bigcaslon';}
 .pagetitle{
     font-family: "bigjohn" !important;
   font-size: 40px !important;
   color: #707070;
 }
-
-.home_the_association_title{margin-top: 30px; margin-bottom: 50px;}
 
 .home_logo{width: 50px;height: auto; text-align: center;margin-bottom: 10px;}
 .p {font-family: avenir;
@@ -1416,4 +1415,4 @@ width: 90px;
   text-align: center;
   }
 
-.home_ready {text-align: center; margin-top: 30px;}
+.home_ready {text-align: center; margin-top: 30px; font-family: Avenir; color: #707070; font-size: 1.2em;}
