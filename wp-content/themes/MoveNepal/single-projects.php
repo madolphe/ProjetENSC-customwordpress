@@ -6,12 +6,15 @@ $thumb = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full' )
 
 <?php include_once ('banniere.php');?>
 
-<div class="row titre">
+<div class="container">
+    <div class="row titre  pull-left">
     <div class="col-sm-1"></div>
     <div class="col-sm-11">
         <h1><strong><?php the_title();?>  </strong></h1>
     </div>
 </div>
+</div>
+
 <?php
 
 
