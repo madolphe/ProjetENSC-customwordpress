@@ -25,26 +25,22 @@
         <strong>THE MISSIONS</strong>
     </div>
     <div class="row">
-        <div class="col-sm-2"></div>
-        <div class="col-sm-2 home_missions">
+        <div class="col-sm-3 home_missions">
             <img class="home_logo" src="<?php bloginfo('template_directory')?>'/images/coding.png'">
             <div class="p">Developpement</div>
         </div>
-        <div class="col-sm-2 home_missions">
+        <div class="col-sm-3 home_missions">
             <img class="home_logo" src="<?php bloginfo('template_directory')?>'/images/group.png'">
             <div class="p"> Workshop</div>
         </div>
-        <div class="col-sm-2 home_missions">
+        <div class="col-sm-3 home_missions">
             <img class="home_logo" src="<?php bloginfo('template_directory')?>'/images/video-camera.png'">
             <div class="p">Journalism experience</div>
         </div>
-        <div class="col-sm-2 home_missions">
+        <div class="col-sm-3 home_missions">
             <img class="home_logo" src="<?php bloginfo('template_directory')?>'/images/open-magazine.png'">
             <div class="p">Teaching at schools</div>
         </div>
-
-
-
     </div>
 </div>
 
