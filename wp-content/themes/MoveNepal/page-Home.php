@@ -4,6 +4,7 @@
     <div class="home_the_association_title pagetitle">
             <strong>THE ASSOCIATION</strong>
     </div>
+
             <?php
 
             $content = get_post_field( 'post_content', 13 );
@@ -24,14 +25,22 @@
         <strong>THE MISSIONS</strong>
     </div>
     <div class="row">
-        <div class="col-sm-4">
-            <img src="<?php bloginfo('template_directory')?>'/images/coding.png'">
+        <div class="col-sm-4 home_missions">
+            <img class="home_logo" src="<?php bloginfo('template_directory')?>'/images/coding.png'">
             <p>Developpement</p>
-            
         </div>
-
-
-
+        <div class="col-sm-4 home_missions">
+            <img class="home_logo" src="<?php bloginfo('template_directory')?>'/images/group.png'">
+            <p>Workshop</p>
+        </div>
+        <div class="col-sm-4 home_missions">
+            <img class="home_logo" src="<?php bloginfo('template_directory')?>'/images/video-camera.png'">
+            <p>Journalism experience</p>
+        </div>
+        <div class="col-sm-4 home_missions">
+            <img class="home_logo" src="<?php bloginfo('template_directory')?>'/images/open-magazine.png'">
+            <p>Teaching at schools</p>
+        </div>
 
 
     </div>
