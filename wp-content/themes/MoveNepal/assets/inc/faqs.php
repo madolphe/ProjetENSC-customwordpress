@@ -1,12 +1,12 @@
 <?php
-add_action( 'init', 'faqs' );
+add_action( 'init', 'faq' );
 
 function faqs() {
 	$labels = array(
-		'name'               => _x( 'faqs', 'MoveNepal' ),
+		'name'               => _x( 'faq', 'MoveNepal' ),
 		'singular_name'      => _x( 'faq', 'MoveNepal' ),
-		'menu_name'          => _x( 'faqs', 'MoveNepal' ),
-		'name_admin_bar'     => _x( 'faqs', 'MoveNepal' ),
+		'menu_name'          => _x( 'faq', 'MoveNepal' ),
+		'name_admin_bar'     => _x( 'faq', 'MoveNepal' ),
 		'add_new'            => _x( 'Ajouter un faq', 'MoveNepal' ),
 		'add_new_item'       => __( 'Ajouter un faq', 'MoveNepal' ),
 		'new_item'           => __( 'Nouveau faq', 'MoveNepal' ),
