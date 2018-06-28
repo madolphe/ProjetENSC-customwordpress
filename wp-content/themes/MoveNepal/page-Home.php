@@ -121,8 +121,8 @@
 
 <div class="container home_apply">
     <div class="home_ready"><strong>Ready to go ?</strong></div>
-    <div class="home_apply_btn ">
-        <button type="button" class="btn apply"> <a href=<?php bloginfo('template_directory') ?>"the-volunteers/apply"?> <strong>APPLY</strong> <img src="<?php echo bloginfo('template_directory')?>/images/right-arrow.png"></a></button>
+    <div class="home_apply_btn">
+        <button type="button" class="btnn apply"> <a href=<?php bloginfo('template_directory') ?>"the-volunteers/apply"?> <strong>APPLY</strong> <img src="<?php echo bloginfo('template_directory')?>/images/right-arrow.png"></a></button>
     </div>
 </div>
 
