@@ -5,7 +5,7 @@ HEADER
 .navbar
 {
   font-family: Avenir;
-  background-color:#62B2C1;
+  background-color:#62B2C1 !important;
   border: none;
 
 }
