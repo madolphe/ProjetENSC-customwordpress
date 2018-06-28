@@ -37,10 +37,4 @@ function footer() {
 
     register_post_type( 'footer', $args );
 }
-?><?php
-/**
- * Created by PhpStorm.
- * User: noemiem
- * Date: 28/06/2018
- * Time: 09:11
- */
+?>
