@@ -1,3 +1,4 @@
+<?php get_the_header() ?>
 <div class="container-fluid">
     <div class="video_row row text-center">
         <video class="video_background" preload="auto" autoplay loop muted  style="background: url(<?php echo bloginfo('template_directory') ;?>/images-videos/BM.mp4) center center no-repeat;">
