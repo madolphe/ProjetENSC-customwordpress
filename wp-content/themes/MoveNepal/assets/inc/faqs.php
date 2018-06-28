@@ -1,7 +1,7 @@
 <?php
 add_action( 'init', 'faq' );
 
-function faqs() {
+function faq() {
 	$labels = array(
 		'name'               => _x( 'faq', 'MoveNepal' ),
 		'singular_name'      => _x( 'faq', 'MoveNepal' ),

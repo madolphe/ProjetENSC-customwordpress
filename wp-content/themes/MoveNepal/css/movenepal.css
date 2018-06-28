@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 h2.pagetitle{
   font-color: grey;
 
@@ -6,15 +5,11 @@ h2.pagetitle{
 .navb{
   padding-top: 0px !important;
 }
-=======
-/*----------------------
-HEADER
-------------------------*/
->>>>>>> 5fbb22681e50bd975ba7ccadf6c001d00e3d241a
+
 .navbar
 {
   font-family: Avenir;
-  background-color:#62B2C1;
+  background-color: #62B2C1;
   border: none;
 
 }
