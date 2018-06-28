@@ -1,8 +1,8 @@
 <?php get_header(); ?>
 
-<div class="home_the_association">
+<div class="container home_the_association">
     <div class="home_the_association_title">
-            <?php echo get_the_title( 13 ); ?>
+            <strong>THE ASSOCIATION</strong>
     </div>
             <?php
 
@@ -17,6 +17,7 @@
             echo $content_parts['main'];
             ?>
     </div>
+    <div class="Read_More" <a href=<?php bloginfo('template_directory') ?>"the-association"?> Read More </a></div>
 </div>
 
 <?php get_footer(); ?>
