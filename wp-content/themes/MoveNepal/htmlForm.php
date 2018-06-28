@@ -75,7 +75,7 @@
       </div>
 
       <div class="row">
-        <button type="button" class="offset-10 btn btn-primary btn-sm" name="link-form-part-2">Next</button>
+        <button type="button" class="offset-10 btn btn-primary btn-sm pull-right" name="link-form-part-2">Next</button>
       </div>
     </div>
 
@@ -92,7 +92,7 @@
           while($the_query->have_posts()): $the_query->the_post();
             ?>
             <div class="form-check ml-5">
-              <label class="custom-control form-control-label custom-checkbox">
+              <label class="custom-control form-control-label custom-checkbox" id="nobold">
                 <input class="custom-control-input" type="checkbox" name="a-select-project[]" value="<?php echo get_the_title(); ?>">
                 <span class="custom-control-indicator"></span>
                 <span class="custom-control-description"><?php echo get_the_title(); ?></span>
@@ -123,8 +123,8 @@
       </div>
 
       <div class="row">
-        <button type="button" class="offset-1 btn btn-primary btn-sm" name="link-form-part-1">Previous</button>
-        <button type="button" class="offset-8 btn btn-primary btn-sm" name="link-form-part-3">Next</button>
+        <button type="button" class="offset-1 btn btn-primary btn-sm pull-left" name="link-form-part-1">Previous</button>
+        <button type="button" class="offset-8 btn btn-primary btn-sm pull-right" name="link-form-part-3">Next</button>
       </div>
     </div>
     
@@ -160,14 +160,6 @@
         </div>
       </div>
 
-        <div class="form-group row">
-                    <div class="col-md-12">
-          <label class="mr-2" for="english-level">How would you classify your English skills?</label>
-          <span class="col-md-2">I can speak some</span>
-          <input class="col-md-8" type="range" name="a-english-level" id="english-level" value="50" min="0" max="100">
-          <span class="col-md-2">I am bilingual</span>
-        </div>
-      </div>
 
         <div class="form-group row">
           <div class="col-md-6">
@@ -204,13 +196,6 @@
           </div>
         </div>
         </div>
-
-        <div class="offset-1 form-group row hidden-xs-up" id="disability-div">
-                    <div class="col-md-12">
-          <label class="form-control-label" for="disability-text">What kind of disability do you have?</label>
-          <textarea class="form-control" id="disability-text" name="a-disability-text" rows="1"></textarea>
-        </div>
-      </div>
 
         <div class="form-group row">
                     <div class="col-md-12">
@@ -264,17 +249,10 @@
           </div>
         </div>
         </div>
-
-        <div class="offset-1 form-group row hidden-xs-up" id="volunteering-div">
-                    <div class="col-md-12">
-          <label class="form-control-label" for="volunteering-text">What kind of volunteering?</label>
-          <textarea class="form-control" id="volunteering-text" name="a-volunteering-text" rows="2"></textarea>
-        </div>
-      </div>
       </div>
       <div class="row">
-        <button type="button" class="offset-1 btn btn-primary btn-sm" name="link-form-part-2">Previous</button>
-        <button type="button" class="offset-8 btn btn-primary btn-sm" name="link-form-part-4">Next</button>
+        <button type="button" class="offset-1 btn btn-primary btn-sm pull-left" name="link-form-part-2">Previous</button>
+        <button type="button" class="offset-8 btn btn-primary btn-sm pull-right" name="link-form-part-4">Next</button>
       </div>
     </div>
 
@@ -331,8 +309,8 @@
           </div>
         </div>
       <div class="row">
-        <button type="button" class="offset-1 btn btn-primary btn-sm" name="link-form-part-3">Previous</button>
-        <button type="button" class="offset-8 btn btn-primary btn-sm" name="link-form-part-5">Next</button>
+        <button type="button" class="offset-1 btn btn-primary btn-sm pull-left" name="link-form-part-3">Previous</button>
+        <button type="button" class="offset-8 btn btn-primary btn-sm pull-right" name="link-form-part-5">Next</button>
       </div>
     </div>
 
@@ -371,21 +349,14 @@
           <label class="custom-control custom-checkbox">
             <input type="checkbox" class="custom-control-input" id="terms-conditions">
             <span class="custom-control-indicator"></span>
-            <span class="custom-control-description">I have read and I agree to the <a href="<?php echo get_template_directory_uri().'/doc/Program-Agreement-Terms-and-Conditions.pdf'; ?> " target="_blank">Terms and Conditions</a></span>
+            <span class="custom-control-description">I have read and I agree to the Terms and Conditions</span>
             <small class="form-text text-muted"></small>
           </label>
         </div>
       </div>
 
       </div>
-
-
-      <div class="g-recaptcha" data-sitekey="6LcdDikUAAAAAHaxPLpFJvOF_NbRjzzliPXLDWSQ"></div>
-      <br>
-      <input type="submit" name="submit" value="submit" class="btn btn-primary" onclick="return validateApplicationForm()">  
-      <br>
-      <div class="row">
-        <button type="button" class="offset-1 btn btn-primary btn-sm" name="link-form-part-4">Previous</button>
-      </div>
+      <input type="submit" name="submit" value="submit" class="btn btn-primary pull-right" onclick="return validateApplicationForm()">  
+        <button type="button" class="offset-1 btn btn-primary btn-sm pull-left" name="link-form-part-4">Previous</button>
     </div>
   </form>

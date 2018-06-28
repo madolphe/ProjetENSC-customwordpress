@@ -5,8 +5,8 @@
 
 <div class="row titre">
     <div class="col-sm-1"></div>
-    <div class="col-sm-6">
-    <h1><strong>GET INVOLVED AND PROJECTS </strong></h1>
+    <div class="col-sm-8">
+    <h1 class="pagetitle"><strong>GET INVOLVED AND PROJECTS </strong></h1>
     </div>
 </div>
 
