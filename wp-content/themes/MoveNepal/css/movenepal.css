@@ -1330,9 +1330,13 @@ padding: 4px;
   }
 }
 
+.container {width: 80%}
+
 /*------------------
 
 PAGE HOME
  ----------------- */
 
-.home_the_association{color: red;}
+.home_the_association{font-family: Avenir; font-size: 15px;}
+
+.home_the_association_title {text-align: center; font-size: 35px; color: black; margin-bottom: 30px;}
