@@ -17,7 +17,7 @@
         <div id="video-text">
             <div class="titre pol2"><strong>MOVE</strong><span class="pol3">N</span>epal</div>
             <div class="text-middle">
-                <span style="font-size:0.3em">We help social project in Nepal </span> <br> <span style="font-size:0.3em"> by sending you there!</span><br>
+                <?php bloginfo('Description');?>
             </div>
             <div class="fleche">
                 <a href="content"><img class="down-arrow" src="<?php echo bloginfo('template_directory');?>/images/down-arrow.png" alt="down_arrow"></a>
