@@ -17,7 +17,7 @@
         <div id="video-text">
             <div class="titre pol2"><strong>MOVE</strong><span class="pol3">N</span>epal</div>
             <div class="text-middle">
-                <?php bloginfo('Description');?>
+                <?php bloginfo('description');?>
             </div>
             <div class="fleche">
                 <a href="content"><img class="down-arrow" src="<?php echo bloginfo('template_directory');?>/images/down-arrow.png" alt="down_arrow"></a>

@@ -21,7 +21,6 @@ if(have_posts()):
 
         <?php
         the_post();
-        the_title('<div class="container"><h2>','</h2></div>');
         // Get 'valeurs' posts
         $projects_posts = get_posts(array(
             'post_type' => 'projects',
