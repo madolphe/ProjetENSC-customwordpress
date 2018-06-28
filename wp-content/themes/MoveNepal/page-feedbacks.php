@@ -6,8 +6,7 @@
 if(have_posts()):
 while(have_posts()):
 		the_post();
-	   
-		the_title('<div class="container"><h2>','</h2></div>');
+	    the_title('<h2 class="pagetitle container">','</h2>');
 		the_content();
 ?>
 <?php endwhile;
