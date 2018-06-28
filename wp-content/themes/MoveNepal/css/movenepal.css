@@ -1,10 +1,17 @@
+@font-face {
+font-family: 'bigjohn';
+src: url('../fonts/bigjohn.otf');
+}
 
-/*----------------------
-HEADER
-------------------------*/
+@font-face {
+font-family: 'quicksand';
+src: url('../fonts/quicksand.otf');
+}
+
+
 .navbar
 {
-  font-family: Avenir;
+  font-family: Avenir !important;
   background-color:#62B2C1 !important;
   border: none;
 
@@ -1300,7 +1307,6 @@ padding: 4px;
   }
 }
 
-.container {width: 80%}
 
 /*------------------
 
@@ -1315,8 +1321,8 @@ PAGE HOME
 
 .Read_More {font-size: 15px; text-align: center; margin-top: 20px; margin-bottom: 70px;}
 .pagetitle{
-    font-family: "Big John" !important;
-  font-size: 60px !important;
+    font-family: "bigjohn" !important;
+  font-size: 50px !important;
   color: #707070;
 }
 
@@ -1324,6 +1330,8 @@ PAGE HOME
   background-color: #62B2C1 !important;
 }
 
-p {
-  font-family: 'quicksand';
+#nobold {
+  font-weight: normal !important;
 }
+.home_logo{width: 50px;height: auto; text-align: center;}
+.home_missions {margin-left: 50px;}
