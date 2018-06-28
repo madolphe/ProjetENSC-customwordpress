@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
-<div class="container home_the_association pagetitle">
-    <div class="home_the_association_title">
+<div class="container home_the_association ">
+    <div class="home_the_association_title pagetitle">
             <strong>THE ASSOCIATION</strong>
     </div>
             <?php
