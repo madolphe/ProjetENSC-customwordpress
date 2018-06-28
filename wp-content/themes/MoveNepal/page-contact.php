@@ -9,17 +9,13 @@
 </div>
 	<?php echo do_shortcode('[wpgmza id="1"]');	?>
 <div class = "container">
-	<hr>
 	<div class= "text-center">
-		<p>Feel free to contact us as anytime, we are available 24 hours 7 days a week.
-		<br/>If you don't get answer, please leave a message and we shall get to you as soon as possible.</p>
-	</div>
-	<hr>
 
 <?php
 	if(have_posts()):
 	while(have_posts()):
 			the_post();
+			?></div><?php
 			the_post_thumbnail();
 			the_content();
 	endwhile;
@@ -28,36 +24,25 @@
 <hr>
 	<?php 
 	$contact = get_posts(array(
-		'post_type' => 'Contact',
+		'post_type' => 'contact',
 		'posts_per_page' => -1, //posts illimités
 	));
 	?>
-	<div class="row">
+	<div class="row text-center">
 	<?php
-	foreach($contact as $content)
-	{
-		echo '<div class = "col-sm-3 col-sm-offset-2">'.$content.'</div>';
+	if ($contact){
+		foreach ($contact as $post){
+			//On créée des objets avec les QR
+			setup_postdata($post);
+			//taille de la liste ie nombre de catégorie
+			?>
+			<br/>
+			<div class = "col-xs-3 col-sm-offset-2 col-xs-offset-1"><strong>Physical adress</strong><br/><?php the_field('physical_adress'); ?></div></div>
+			<div class = "col-xs-3"><strong>Phone</strong><br/><?php the_field('phone'); ?><br/><strong>Mobile</strong><br/><?php the_field('mobile'); ?><br/></div>
+			<div class = "col-xs-3"><strong>E-mail</strong><br/><?php the_field('e-mail'); ?></div><?php
+		}
 	}
 	?>
-	</div>
-
-	<div class = "row">
-		<div class = "col-sm-3 col-sm-offset-2">
-			<strong>Physical address</strong>
-			<br/>Pokhara – 16, Shanti Deep. 
-			<br/>Kaski District -Nepal
-		</div>
-		<div class = "col-sm-3">
-			<strong>Phone</strong>
-			<br/>+977  61441947
-			<br/><strong>Mobile</strong>
-			<br/>+977  61441947
-		</div>
-		<div class = "col-sm-3">
-			<strong>Email</strong>
-			<br/>info@move-nepal.org
-			<br/>khomrajsharma@gmail.com
-		</div>
 	</div>
 	<br/>
 	<div class = "row">
