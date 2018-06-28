@@ -1,12 +1,12 @@
 <?php
-add_action( 'init', 'faqpositions' );
+add_action( 'init', 'faqposition' );
 
-function faqpositions() {
+function faqposition() {
 	$labels = array(
-		'name'               => _x( 'faqpositions', 'MoveNepal' ),
-		'singular_name'      => _x( 'faqpositions', 'MoveNepal' ),
-		'menu_name'          => _x( 'faqpositions', 'MoveNepal' ),
-		'name_admin_bar'     => _x( 'faqpositions', 'MoveNepal' ),
+		'name'               => _x( 'faqposition', 'MoveNepal' ),
+		'singular_name'      => _x( 'faqposition', 'MoveNepal' ),
+		'menu_name'          => _x( 'faqposition', 'MoveNepal' ),
+		'name_admin_bar'     => _x( 'faqposition', 'MoveNepal' ),
 		'add_new'            => _x( 'Ajouter une hierarchie', 'MoveNepal' ),
 		'add_new_item'       => __( 'Ajouter une nouvelle categorie', 'MoveNepal' ),
 		'new_item'           => __( 'Nouvelle categorie', 'MoveNepal' ),
@@ -36,6 +36,6 @@ function faqpositions() {
 		'menu_icon'          => 'dashicons-share-alt'
 	);
 
-	register_post_type( 'faqpositions', $args );
+	register_post_type( 'faqposition', $args );
 }
 ?>
