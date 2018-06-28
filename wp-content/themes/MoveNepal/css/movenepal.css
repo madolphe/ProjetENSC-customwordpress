@@ -1307,7 +1307,9 @@ padding: 4px;
   }
 }
 
-
+.card-title, #application-form label {
+  color : #1291A7;
+}
 /*------------------
 
 PAGE HOME
@@ -1332,6 +1334,10 @@ PAGE HOME
 
 #nobold {
   font-weight: normal !important;
+  margin-right: 20px;
+  margin-left: 20px;
+  color: black !important;
+
 }
 .home_logo{width: 50px;height: auto; text-align: center;}
 .home_missions {margin-left: 50px;}
