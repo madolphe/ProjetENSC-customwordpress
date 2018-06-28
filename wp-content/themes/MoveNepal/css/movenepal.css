@@ -5,8 +5,7 @@ src: url('../fonts/bigjohn.otf');
 
 @font-face {
 font-family: 'quicksand';
-src: url('../fonts/quicksand.eot');
-src: url('../fonts/quicksand.eot');
+src: url('../fonts/quicksand.otf');
 }
 
 
@@ -1332,6 +1331,6 @@ PAGE HOME
   background-color: #62B2C1 !important;
 }
 
-p {
-  font-family: 'quicksand';
+#nobold {
+  font-weight: normal !important;
 }

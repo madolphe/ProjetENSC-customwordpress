@@ -163,24 +163,22 @@
         <div class="form-group row">
                     <div class="col-md-12">
           <label class="mr-2" for="english-level">How would you classify your English skills?</label>
-          <span class="mx-2">I can speak some</span><input type="range" name="a-english-level" id="english-level" value="50" min="0" max="100"><span class="mx-2">I am bilingual</span>
+          <span class="col-md-2">I can speak some</span>
+          <input class="col-md-8" type="range" name="a-english-level" id="english-level" value="50" min="0" max="100">
+          <span class="col-md-2">I am bilingual</span>
         </div>
       </div>
 
         <div class="form-group row">
-                    <div class="col-md-12">
+          <div class="col-md-6">
           <label class="form-control-label">Are you open and interested to learn Nepali?</label>
           <div class="pl-3 form-check form-check-inline">
-            <label class="custom-control custom-radio">
+            <label class="custom-control custom-radio" id="nobold">
               <input class="custom-control-input" type="radio" name="a-learn-nepali" value="yes">
               <span class="custom-control-indicator"></span>  
               <span class="custom-control-description">Yes</span>
             </label>
-          </div>
-        </div>
-          <div class="form-check form-check-inline">
-                      <div class="col-md-12">
-            <label class="custom-control custom-radio">
+                        <label class="custom-control custom-radio" id="nobold">
               <input class="custom-control-input" type="radio" name="a-learn-nepali" value="no">
               <span class="custom-control-indicator"></span>
               <span class="custom-control-description">No</span>
@@ -193,16 +191,12 @@
                     <div class="col-md-12">
           <label class="form-control-label">Do you have a disability?</label>
           <div class="pl-3 form-check form-check-inline">
-            <label class="custom-control custom-radio">
+            <label class="custom-control custom-radio" id="nobold">
               <input class="custom-control-input" type="radio" name="a-disability-radio" id="disability-true" value="yes">
               <span class="custom-control-indicator"></span>
               <span class="custom-control-description">Yes</span>
             </label>
-          </div>
-        </div>
-          <div class="form-check form-check-inline">
-                      <div class="col-md-12">
-            <label class="custom-control custom-radio" for="disability-false">
+                        <label class="custom-control custom-radio" for="disability-false" id="nobold">
               <input class="custom-control-input" type="radio" name="a-disability-radio" id="disability-false" value="no">
               <span class="custom-control-indicator"></span>
               <span class="custom-control-description">No</span>
@@ -210,6 +204,7 @@
           </div>
         </div>
         </div>
+
         <div class="offset-1 form-group row hidden-xs-up" id="disability-div">
                     <div class="col-md-12">
           <label class="form-control-label" for="disability-text">What kind of disability do you have?</label>
@@ -220,17 +215,13 @@
         <div class="form-group row">
                     <div class="col-md-12">
           <label class="form-control-label">Do you have any problems living in a family with a different religion?</label>
-          <div class="pl-3 form-check form-check-inline">
-            <label class="custom-control custom-radio">
+          <div class="pl-3 form-check form-check-inline" >
+            <label class="custom-control custom-radio" id="nobold">
               <input class="custom-control-input" type="radio" id="religion-living-radio-true" name="a-religion-living-radio" value="yes">
               <span class="custom-control-indicator"></span>
               <span class="custom-control-description">Yes</span>              
             </label>
-          </div>
-        </div>
-          <div class="form-check form-check-inline">
-                      <div class="col-md-12">
-            <label class="custom-control custom-radio">
+                        <label class="custom-control custom-radio" id="nobold">
               <input class="custom-control-input" type="radio" id="religion-living-radio-false" name="a-religion-living-radio" value="no">
               <span class="custom-control-indicator"></span>
               <span class="custom-control-description">No</span>
@@ -243,17 +234,30 @@
                     <div class="col-md-12">
           <label class="form-control-label">Are you a vegetarian?</label>
           <div class="pl-3 form-check form-check-inline">
-            <label class="custom-control custom-radio">
+            <label class="custom-control custom-radio" id="nobold">
               <input class="custom-control-input" type="radio" name="a-vegetarian-radio" value="yes">
               <span class="custom-control-indicator"></span>
               <span class="custom-control-description">Yes</span>              
             </label>
-          </div>
-          </div>
-          <div class="form-check form-check-inline">
-                      <div class="col-md-12">
-            <label class="custom-control custom-radio">
+                        <label class="custom-control custom-radio" id="nobold">
               <input class="custom-control-input" type="radio" name="a-vegetarian-radio" value="no">
+              <span class="custom-control-indicator"></span>
+              <span class="custom-control-description">No</span>
+            </label>
+          </div>
+          </div>
+        </div>
+
+        <div class="form-group row">
+                    <div class="col-md-12">
+          <label class="form-control-label">Have you done any volunteering in the past?</label>
+          <div class="pl-3 form-check form-check-inline">
+            <label class="custom-control custom-radio" id="nobold">
+              <input class="custom-control-input" type="radio" name="a-volunteering-radio" id="volunteering-true" value="yes">
+              <span class="custom-control-indicator"></span>
+              <span class="custom-control-description">Yes</span>              
+            </label>
+                          <input class="custom-control-input" type="radio" name="a-volunteering-radio" id="volunteering-false" value="no">
               <span class="custom-control-indicator"></span>
               <span class="custom-control-description">No</span>
             </label>
@@ -261,27 +265,6 @@
         </div>
         </div>
 
-        <div class="form-group row">
-                    <div class="col-md-12">
-          <label class="form-control-label">Have you done any volunteering in the past?</label>
-          <div class="pl-3 form-check form-check-inline">
-            <label class="custom-control custom-radio">
-              <input class="custom-control-input" type="radio" name="a-volunteering-radio" id="volunteering-true" value="yes">
-              <span class="custom-control-indicator"></span>
-              <span class="custom-control-description">Yes</span>              
-            </label>
-          </div>
-        </div>
-          <div class="form-check form-check-inline">
-                      <div class="col-md-12">
-            <label class="custom-control custom-radio">
-              <input class="custom-control-input" type="radio" name="a-volunteering-radio" id="volunteering-false" value="no">
-              <span class="custom-control-indicator"></span>
-              <span class="custom-control-description">No</span>
-            </label>
-          </div>
-        </div>
-        </div>
         <div class="offset-1 form-group row hidden-xs-up" id="volunteering-div">
                     <div class="col-md-12">
           <label class="form-control-label" for="volunteering-text">What kind of volunteering?</label>
