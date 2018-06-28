@@ -5,8 +5,7 @@ src: url('../fonts/bigjohn.otf');
 
 @font-face {
 font-family: 'quicksand';
-src: url('../fonts/quicksand.eot');
-src: url('../fonts/quicksand.eot');
+src: url('../fonts/quicksand.otf');
 }
 
 
@@ -1338,9 +1337,17 @@ PAGE HOME
 }
 
 
+<<<<<<< HEAD
 .home_logo{width: 50px;height: auto; text-align: center;margin-bottom: 10px;}
 .p {font-family: avenir;
   font-size: 1.2em;
   color: #707070;
   text-align: justify;
 width: 90px}
+=======
+#nobold {
+  font-weight: normal !important;
+}
+.home_logo{width: 50px;height: auto; text-align: center;}
+.home_missions {margin-left: 50px;}
+>>>>>>> d1c87ec78b3ffce158c6a3f3910689329f9a91d7
