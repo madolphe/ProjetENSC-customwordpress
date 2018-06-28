@@ -1,15 +1,11 @@
-h2.pagetitle{
-  font-color: grey;
 
-}
-.navb{
-  padding-top: 0px !important;
-}
-
+/*----------------------
+HEADER
+------------------------*/
 .navbar
 {
   font-family: Avenir;
-  background-color: #62B2C1;
+  background-color:#62B2C1 !important;
   border: none;
 
 }
