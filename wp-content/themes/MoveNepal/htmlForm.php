@@ -349,21 +349,14 @@
           <label class="custom-control custom-checkbox">
             <input type="checkbox" class="custom-control-input" id="terms-conditions">
             <span class="custom-control-indicator"></span>
-            <span class="custom-control-description">I have read and I agree to the <a href="<?php echo get_template_directory_uri().'/doc/Program-Agreement-Terms-and-Conditions.pdf'; ?> " target="_blank">Terms and Conditions</a></span>
+            <span class="custom-control-description">I have read and I agree to the Terms and Conditions</span>
             <small class="form-text text-muted"></small>
           </label>
         </div>
       </div>
 
       </div>
-
-
-      <div class="g-recaptcha" data-sitekey="6LcdDikUAAAAAHaxPLpFJvOF_NbRjzzliPXLDWSQ"></div>
-      <br>
       <input type="submit" name="submit" value="submit" class="btn btn-primary pull-right" onclick="return validateApplicationForm()">  
-      <br>
-      <div class="row">
         <button type="button" class="offset-1 btn btn-primary btn-sm pull-left" name="link-form-part-4">Previous</button>
-      </div>
     </div>
   </form>

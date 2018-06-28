@@ -1321,6 +1321,19 @@ padding: 4px;
   margin-left: 20px;
   color: black !important;
 }
+
+.btn-primary {
+    color: #ffffff;
+    background-color: #22CCA7;
+    border-color: #22CCA7;
+}
+
+.btn-primary:hover {
+    color: #ffffff;
+    background-color: #22CCA7;
+    border-color: #22CCA7;
+    box-shadow: 0 0 0 3px rgba(150, 192, 61, 0.3);
+}
 /*------------------
 
 PAGE HOME
