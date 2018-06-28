@@ -50,10 +50,10 @@ src: url('../fonts/bigcaslon.ttf');
   border-radius: 30px !important;
   font-size: 18px !important;
   padding: 2.5%;
-  height: 20%;
+  height: 60px;
   line-height:1.2; /* centrage vertical */
-  margin-top: 38px;
-  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .experience
@@ -1378,14 +1378,15 @@ PAGE HOME
   color: #707070;
   text-align: justify;}
 
-.home_the_association_title {text-align: center; font-size: 35px; color: black; margin-bottom: 30px;}
+.home_the_association_title {text-align: center; font-size: 35px; color: black; margin-top: 30px; margin-bottom: 50px;}
 
 .Read_More a{ font-family: avenir;
   font-size: 1.2em;
   color: #707070 !important;
   text-align: justify;}
 
-.Read_More {font-size: 15px; text-align: center; margin-top: 20px; margin-bottom: 70px;}
+.Read_More {font-size: 15px; text-align: center; margin-top: 50px; margin-bottom: 70px; }
+.Read_More a {font-family: 'bigcaslon';}
 .pagetitle{
     font-family: "bigjohn" !important;
   font-size: 40px !important;
@@ -1397,10 +1398,21 @@ PAGE HOME
   font-size: 1.2em;
   color: #707070;
   text-align: justify;
-width: 90px}
+width: 90px;
+  margin-left: 35%;}
+.home_missions {text-align: center; margin-bottom: 50px;}
+.home_the_mission {background-color: #f7f7f7; width: 100%;}
+.hom
+.feedbacks {margin-bottom: 100px;}
+.home_apply
+{
+  height: 200px;
+  width: 100%;
+  background-color: #f7f7f7;
+}
 
-.home_logo{width: 50px;height: auto; text-align: center;}
-.home_missions {text-align: center;}
-.p {margin-left: 35%;}
+.home_apply_btn{
+  text-align: center;
+  }
 
-
+.home_ready {text-align: center; margin-top: 30px; font-family: Avenir; color: #707070; font-size: 1.2em;}
