@@ -92,7 +92,7 @@
           while($the_query->have_posts()): $the_query->the_post();
             ?>
             <div class="form-check ml-5">
-              <label class="custom-control form-control-label custom-checkbox">
+              <label class="custom-control form-control-label custom-checkbox" id="nobold">
                 <input class="custom-control-input" type="checkbox" name="a-select-project[]" value="<?php echo get_the_title(); ?>">
                 <span class="custom-control-indicator"></span>
                 <span class="custom-control-description"><?php echo get_the_title(); ?></span>
