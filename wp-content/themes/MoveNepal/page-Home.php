@@ -21,26 +21,28 @@
     <div class="Read_More"> <a href=<?php bloginfo('template_directory')?>"/the-association/"> Read More </a></div>
 </div>
 <div class="container home_the_mission">
-    <div class="home_the_association_title">
+    <div class="home_the_association_title pagetitle">
         <strong>THE MISSIONS</strong>
     </div>
     <div class="row">
-        <div class="col-sm-4 home_missions">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-2 home_missions">
             <img class="home_logo" src="<?php bloginfo('template_directory')?>'/images/coding.png'">
-            <p>Developpement</p>
+            <div class="p">Developpement</div>
         </div>
-        <div class="col-sm-4 home_missions">
+        <div class="col-sm-2 home_missions">
             <img class="home_logo" src="<?php bloginfo('template_directory')?>'/images/group.png'">
-            <p>Workshop</p>
+            <div class="p"> Workshop</div>
         </div>
-        <div class="col-sm-4 home_missions">
+        <div class="col-sm-2 home_missions">
             <img class="home_logo" src="<?php bloginfo('template_directory')?>'/images/video-camera.png'">
-            <p>Journalism experience</p>
+            <div class="p">Journalism experience</div>
         </div>
-        <div class="col-sm-4 home_missions">
+        <div class="col-sm-2 home_missions">
             <img class="home_logo" src="<?php bloginfo('template_directory')?>'/images/open-magazine.png'">
-            <p>Teaching at schools</p>
+            <div class="p">Teaching at schools</div>
         </div>
+
 
 
     </div>
