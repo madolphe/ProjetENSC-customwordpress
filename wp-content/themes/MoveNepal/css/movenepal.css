@@ -13,7 +13,48 @@ font-family: 'bigcaslon';
 src: url('../fonts/bigcaslon.ttf');
 }
 
+.pol2{
+  font-family: quicksand;
+}
+.pol3{
+  font-family: bigcaslon;
+}
+.text-middle{
+  font-family: Avenir;
+  font-size: 30px;
+  padding-left:450px;
+  padding-right: 450px;
+}
+.pol2 .move{
+  font-size: 43px;
+}
+@media only screen and (max-width: 950px)  {
+  /* For mobile phones: */
+  [class*="text-middle"] {
+    padding-left:140px;
+    padding-right: 140px;
+  }
+}
+@media only screen and (max-width: 680px)  {
+  /* For mobile phones: */
+  [class*="text-middle"] {
+    padding-left:100px;
+    padding-right: 100px;
+  }
+}
+@media only screen and (max-width: 350px)  {
+  /* For mobile phones: */
+  [class*="text-middle"] {
+    padding-left:50px;
+    padding-right: 50px;
+  }
+}
+@media only screen and (max-width: 200px)  {
+  /* For mobile phones: */
+  [class*="text-middle"] {
 
+  }
+}
 .navbar
 {
   font-family: Avenir !important;
@@ -85,16 +126,25 @@ src: url('../fonts/bigcaslon.ttf');
   height: auto;
   z-index: -1000;
   overflow: hidden;
+  margin:0;
 }
 .video_row {
   width: 100%;
   height: 100vh;
 }
+.video_row.text-center{
+  margin:0;
+}
 #video-text{
+  position : relative;
+  margin-left: auto;
+  margin-right: auto;
   color:white;
-  font-size: 7em;
+  font-size: 5em;
   min-height: 10vh;
   min-width: 100%;
+  position:absolute;
+  bottom:0;
 }
 img.down-arrow{
   width: 3vw;
