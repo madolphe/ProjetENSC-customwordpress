@@ -101,7 +101,11 @@ img.down-arrow{
 
 .navbar-default .navbar-nav>li>a { color : white !important;}
 
-.navbar-nav>li{padding-left: 5%; padding-right: 2.5%}
+.navbar-nav>li{padding-left: 5%; padding-right: 2.5%;  }
+
+.dropdown-menu>.active>a {
+  background-color: #62B2C1 !important;
+}
 
 
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover { text-decoration: underline !important;}
@@ -1194,7 +1198,7 @@ footer .row .border-right{
 
 .div_4 .footer_police{margin-top: 50px !important;}
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px)  {
   /* For mobile phones: */
   [class*="footer_div"] {
     width: 100%;
@@ -1308,16 +1312,25 @@ padding: 4px;
 }
 
 
+#nobold {
+  font-weight: normal !important;}
+
 /*------------------
 
 PAGE HOME
  ----------------- */
 
-.home_the_association{font-family: Avenir; font-size: 15px;}
+.home_the_association{font-family: avenir;
+  font-size: 1.2em;
+  color: #707070;
+  text-align: justify;}
 
 .home_the_association_title {text-align: center; font-size: 35px; color: black; margin-bottom: 30px;}
 
-.Read_More a{color:black !important;}
+.Read_More a{ font-family: avenir;
+  font-size: 1.2em;
+  color: #707070 !important;
+  text-align: justify;}
 
 .Read_More {font-size: 15px; text-align: center; margin-top: 20px; margin-bottom: 70px;}
 .pagetitle{
@@ -1326,12 +1339,13 @@ PAGE HOME
   color: #707070;
 }
 
-.dropdown-menu>.active>a {
-  background-color: #62B2C1 !important;
-}
+.home_logo{width: 50px;height: auto; text-align: center;margin-bottom: 10px;}
+.p {font-family: avenir;
+  font-size: 1.2em;
+  color: #707070;
+  text-align: justify;
+width: 90px}
 
-#nobold {
-  font-weight: normal !important;
-}
+
 .home_logo{width: 50px;height: auto; text-align: center;}
 .home_missions {margin-left: 50px;}
