@@ -6,14 +6,11 @@
 if(have_posts()):
 while(have_posts()):
 		the_post();
-<<<<<<< HEAD
 	    //the_title('<h2 class="titre">','</h2 class="titre">');
 	    $Bigtitle=strtoupper(get_the_title());
 	    echo "<h2 class='\pagetitle\'>".$Bigtitle;
 	    echo "</h2>";
-=======
 	    the_title('<div class="container"><h2>','</h2></div>');
->>>>>>> e41c5b6872cf99a67d18a797819d1a948d6b2a06
 	    the_content();
 	?>
 	<hr>
