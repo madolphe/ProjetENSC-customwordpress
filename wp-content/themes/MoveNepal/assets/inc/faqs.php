@@ -1,5 +1,5 @@
 <?php
-add_action( 'init', 'faq' );
+add_action( 'init', 'faqs' );
 
 function faq() {
 	$labels = array(

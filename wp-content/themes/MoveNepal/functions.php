@@ -46,11 +46,11 @@ add_theme_support('custom-header');
 add_theme_support('custom-thumbnails');
 
 require get_template_directory().'/inc/walker.php';
-include 'assets/inc/projects.php';
-include 'assets/inc/contact.php';
-include 'assets/inc/footer.php';
-include 'assets/inc/faq.php';
-include 'assets/inc/faqpositions.php';
+include get_template_directory().'/assets/inc/projects.php';
+include get_template_directory().'/assets/inc/contact.php';
+include get_template_directory().'/assets/inc/footer.php';
+include get_template_directory().'/assets/inc/faqs.php';
+include get_template_directory().'/assets/inc/faqposition.php';
 
 /*
 ==================
