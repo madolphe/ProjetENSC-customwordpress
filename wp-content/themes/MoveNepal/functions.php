@@ -45,17 +45,10 @@ add_theme_support('custom-background');
 add_theme_support('custom-header');
 add_theme_support('custom-thumbnails');
 
-
-
-/*
-==================
-	Inclure Walker
-==================
-*/
-
 require get_template_directory().'/inc/walker.php';
-
 include 'assets/inc/projects.php';
+include 'assets/inc/contact.php';
+include 'assets/inc/faq.php';
 
 /*
 ==================
