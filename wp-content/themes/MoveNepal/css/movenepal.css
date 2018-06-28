@@ -1,6 +1,16 @@
+<<<<<<< HEAD
+h2.pagetitle{
+  font-color: grey;
+
+}
+.navb{
+  padding-top: 0px !important;
+}
+=======
 /*----------------------
 HEADER
 ------------------------*/
+>>>>>>> 5fbb22681e50bd975ba7ccadf6c001d00e3d241a
 .navbar
 {
   font-family: Avenir;
@@ -1280,6 +1290,11 @@ padding: 4px;
   color: #ACB7C0 !important;
 }
 
+.shadow_container {
+   box-shadow: 0 3px 8px #B9C5CD !important;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding:50px;}
 .breadcrumb > .active{
   color : black !important;
 }
@@ -1314,3 +1329,14 @@ padding: 4px;
     object-fit: cover;
   }
 }
+
+.container {width: 80%}
+
+/*------------------
+
+PAGE HOME
+ ----------------- */
+
+.home_the_association{font-family: Avenir; font-size: 15px;}
+
+.home_the_association_title {text-align: center; font-size: 35px; color: black; margin-bottom: 30px;}
