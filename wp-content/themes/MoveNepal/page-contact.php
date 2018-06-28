@@ -5,7 +5,7 @@
 //on utilise le format if/endif pour rester cohérent avec le reste du code wordpress:
 ?>
 <div class = "container">
-	<h1> GET IN TOUCH</h1>
+	<h2 class="pagetitle">Get in touch</h2>
 </div>
 	<?php echo do_shortcode('[wpgmza id="1"]');	?>
 <div class = "container">
@@ -20,7 +20,6 @@
 	if(have_posts()):
 	while(have_posts()):
 			the_post();
-			the_title('<div class="container"><h2>','</h2></div>');
 			the_post_thumbnail();
 			the_content();
 	endwhile;

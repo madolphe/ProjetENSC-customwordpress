@@ -7,13 +7,9 @@ if(have_posts()):
 while(have_posts()):
 		the_post();
 	    //the_title('<h2 class="titre">','</h2 class="titre">');
-	    $Bigtitle=strtoupper(get_the_title());
-	    echo "<h2 class='\pagetitle\'>".$Bigtitle;
-	    echo "</h2>";
-	    the_title('<div class="container"><h2>','</h2></div>');
+	    the_title('<h2 class="pagetitle container">','</h2>');
 	    the_content();
 	?>
-	<hr>
 	<?php endwhile;
 	endif;
 	$pageID = get_the_ID();
