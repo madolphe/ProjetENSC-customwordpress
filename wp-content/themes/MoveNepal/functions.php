@@ -56,6 +56,11 @@ add_theme_support('custom-thumbnails');
 require get_template_directory().'/inc/walker.php';
 
 include 'assets/inc/projects.php';
+include 'assets/inc/contact.php';
+include 'assets/inc/footer.php';
+include 'assets/inc/faq.php';
+include 'assets/inc/faqpositions.php';
+
 
 /*
 ==================
