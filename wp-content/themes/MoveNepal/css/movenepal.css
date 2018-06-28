@@ -1331,3 +1331,7 @@ PAGE HOME
 .home_the_association{font-family: Avenir; font-size: 15px;}
 
 .home_the_association_title {text-align: center; font-size: 35px; color: black; margin-bottom: 30px;}
+
+.Read_More a{color:black !important;}
+
+.Read_More {font-size: 15px; text-align: center; margin-top: 20px; margin-bottom: 70px;}
