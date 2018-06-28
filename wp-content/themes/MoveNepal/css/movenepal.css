@@ -1323,3 +1323,7 @@ PAGE HOME
 .dropdown-menu>.active>a {
   background-color: #62B2C1 !important;
 }
+
+p {
+  font-family: 'quicksand';
+}
