@@ -1477,3 +1477,19 @@ width: 90px;
     }
 
 .home_ready {text-align: center; margin-top: 30px; font-family: Avenir; color: #707070; font-size: 1.2em; }
+
+
+.rpt_title_0 {
+  background-color: #064A52 !important;
+  color: white !important;
+}
+
+.rpt_head_0 {
+  background: #16AAC5 !important;
+  border-top: #16AAC5 !important;
+  color: white !important;
+}
+
+.rpt_custom_btn {
+  color: white !important;
+}

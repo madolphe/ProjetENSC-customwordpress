@@ -7,7 +7,6 @@ if(have_posts()):
 while(have_posts()):
 		the_post();
 	    the_title('<h2 class="pagetitle container">','</h2>');
-	    the_content();
 ?>
 <?php endwhile;
 endif;
@@ -15,6 +14,12 @@ $thumb = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full' )
 ?>
 
 <?php include_once( 'banniere.php' );?>
+<div class="container">
+<?php 	    the_content(); ?>
+<div class="col-md-5 col-md-offset-3"><?php echo do_shortcode('[rpt name="pricing-1"]');	?></div>
+
+</div>
+
 
 
 
