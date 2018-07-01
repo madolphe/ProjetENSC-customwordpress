@@ -1,12 +1,12 @@
 <?php
-add_action( 'init', 'faq' );
+add_action( 'init', 'faqs' );
 
-function faq() {
+function faqs() {
 	$labels = array(
-		'name'               => _x( 'faq', 'MoveNepal' ),
-		'singular_name'      => _x( 'faq', 'MoveNepal' ),
-		'menu_name'          => _x( 'faq', 'MoveNepal' ),
-		'name_admin_bar'     => _x( 'faq', 'MoveNepal' ),
+		'name'               => _x( 'faqs', 'MoveNepal' ),
+		'singular_name'      => _x( 'faqs', 'MoveNepal' ),
+		'menu_name'          => _x( 'faqs', 'MoveNepal' ),
+		'name_admin_bar'     => _x( 'faqs', 'MoveNepal' ),
 		'add_new'            => _x( 'Ajouter un faq', 'MoveNepal' ),
 		'add_new_item'       => __( 'Ajouter un faq', 'MoveNepal' ),
 		'new_item'           => __( 'Nouveau faq', 'MoveNepal' ),
@@ -36,6 +36,6 @@ function faq() {
 		'menu_icon'          => 'dashicons-share-alt'
 	);
 
-	register_post_type( 'faq', $args );
+	register_post_type( 'faqs', $args );
 }
 ?>

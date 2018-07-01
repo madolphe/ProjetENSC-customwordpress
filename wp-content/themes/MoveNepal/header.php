@@ -15,19 +15,20 @@
             <source src=<?php echo bloginfo('template_directory');?>/images/video.mp4 type="video/mp4">
         </video>
         <div id="video-text">
-            <div class="titre pol2"><strong>MOVE</strong><span class="pol3">N</span>epal</div>
+            <div class="pol2"><span class="move">MOVE</span><span class="pol3">N</span>epal</div>
+            <br>
             <div class="text-middle">
-                <?php bloginfo('Description');?>
+                <?php bloginfo('description');?>
             </div>
             <div class="fleche">
-                <a href="content"><img class="down-arrow" src="<?php echo bloginfo('template_directory');?>/images/down-arrow.png" alt="down_arrow"></a>
+                <a href="#anchor_video"><img class="down-arrow" src="<?php echo bloginfo('template_directory');?>/images/down-arrow.png" alt="down_arrow"></a>
             </div>
         </div>
     </div>
 </div>
 
 <header>
-    <div class="container-fluid navb">
+    <div class="container-fluid navb" id="anchor_video">
 
         <div class="row ligne1 text-center">
             <div class="col-sm-3 header_logo">
