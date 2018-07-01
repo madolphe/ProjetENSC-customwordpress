@@ -1,6 +1,5 @@
 <!-- page d'exemple que nous n'utiliserons certainement pas mais le mieux serait d'uitiliser l'ID unique de la page -->
 <?php get_header(); ?>
-
 <?php
 //Création de la loop d'articles:
 //Verification de la presence de contenu:
@@ -22,7 +21,6 @@ if(have_posts()):
 	while(!empty(get_field($i))){
 		array_push($listeCategorie,get_field($i));
 		array_push($listeArrayCategorie,array());
-
 		$i=$i+1;
 	}
 	//on reset la loop:
