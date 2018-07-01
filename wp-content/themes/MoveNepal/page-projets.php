@@ -73,6 +73,7 @@ if(have_posts()):
         </div>
     <?php }
 endif;
-?>
+
+get_footer();?>
 </body>
 
