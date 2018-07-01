@@ -46,7 +46,7 @@
 
 <div class="container feedbacks">
     <div class="home_the_association_title pagetitle">
-        <strong>FEEDBACKS</strong>
+        <strong>PROJETS</strong>
     </div>
     <div class="row">
 

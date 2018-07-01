@@ -92,6 +92,7 @@ src: url('../fonts/bigcaslon.ttf');
   line-height:1.2; /* centrage vertical */
   margin-top: 30px;
   margin-bottom: 30px;
+  
 }
 
 .experience
@@ -625,6 +626,8 @@ a.cat{
   background-size: cover;
   background-position: center;
   position: relative;
+     box-shadow: 0 3px 8px #B9C5CD !important;
+
 
 }
 
@@ -1468,6 +1471,9 @@ width: 90px;
   height: 60px;
   line-height:1.2; /* centrage vertical */
   margin-top: 30px;
-  margin-bottom: 30px;  }
+  margin-bottom: 30px;
+   box-shadow: 0 3px 8px #B9C5CD !important;
+
+    }
 
 .home_ready {text-align: center; margin-top: 30px; font-family: Avenir; color: #707070; font-size: 1.2em; }
