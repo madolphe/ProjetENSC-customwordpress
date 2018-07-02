@@ -1664,14 +1664,14 @@ PAGE PRICING
   background: transparent;
   border: solid;
   border-color: #4ba6a3;
-  border-width: 1.2px;
+  border-width: 1.1px;
   -webkit-appearance: none;
   outline: none;
 }
 
 .field::after{
   content:'';
-  height: 1.2px;
+  height: 1px;
   width: 100%;
   position: absolute;
   bottom: 6px;
@@ -1711,8 +1711,8 @@ li.dropdown:hover > .dropdown-menu {
 
 .btn-contact {
   color: #ffffff;
-  background-color: #1291A7;
-  border-color: #1291A7;
+  background-color: #31CBA7;
+  border-color: #31CBA7;
   border-radius: 25px;
 
   font-family: 'bigjohn';
