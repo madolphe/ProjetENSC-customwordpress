@@ -1570,7 +1570,9 @@ PAGE PRICING
 
   line-height: 16px;
   font-family: Roboto;
+  color: #4ba6a3;
   background: transparent;
+  border: solid;
   border-color: #4ba6a3;
   border-width: 1.2px;
   -webkit-appearance: none;
