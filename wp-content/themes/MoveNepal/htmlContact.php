@@ -31,8 +31,8 @@
       </div>
     </div>
     <br>
-    <div class="col-sm-6 col-sm-offset-5">
-      <input type="submit" name="submit" value="submit" class="btn btn-primary" onclick="return validateApplicationForm()">  
+    <div class="text-center">
+      <input type="submit" name="submit" value="submit" class="btn btn-contact" onclick="return validateApplicationForm()">  
     </div>
     <br>
 </form>
