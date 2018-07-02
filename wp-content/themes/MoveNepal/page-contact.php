@@ -37,7 +37,7 @@
 			//taille de la liste ie nombre de catégorie
 			?>
 			<br/>
-			<div class = "col-xs-3 col-sm-offset-2 col-xs-offset-1"><strong>Physical adress</strong><br/><?php the_field('physical_adress'); ?></div></div>
+			<div class = "col-xs-3 col-sm-offset-2 col-xs-offset-1"><strong>Physical adress</strong><br/><?php the_field('physical_adress'); ?></div>
 			<div class = "col-xs-3"><strong>Phone</strong><br/><?php the_field('phone'); ?><br/><strong>Mobile</strong><br/><?php the_field('mobile'); ?><br/></div>
 			<div class = "col-xs-3"><strong>E-mail</strong><br/><?php the_field('e-mail'); ?></div><?php
 		}
@@ -51,6 +51,7 @@
 		</div>
 	</div>
 	<br/>
+
 	<div class= "text-center">
 		<p>Move Nepal a venture of IEC Nepal
 		<br/>For more information: Media Kit
