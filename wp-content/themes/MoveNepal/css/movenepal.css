@@ -79,8 +79,10 @@ margin-bottom: 70px !important;
   border: none !important;
   box-shadow : none !important;
   border : solid #62B2C1 !important;
-  border-radius: 10px !important; }
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 
+  }
 .dropdown-divider{color:white;}
 
 
@@ -1531,5 +1533,6 @@ PAGE PRICING
 .rpt_recommended {
   display: none !important;
 }
-
-
+li.dropdown:hover > .dropdown-menu {
+    display: block;
+}

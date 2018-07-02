@@ -16,7 +16,7 @@ $thumb = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full' )
 <?php include_once( 'banniere.php' );?>
 
 <div class="container">
-<?php the_content();?>
+<?php the_content(); ?>
 </div>
 
 
