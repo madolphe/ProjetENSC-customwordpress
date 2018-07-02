@@ -99,3 +99,4 @@ get_field('image');
         </div>
     </div>
 </div>
+<?php get_footer();?>
