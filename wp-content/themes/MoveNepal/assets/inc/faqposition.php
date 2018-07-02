@@ -7,16 +7,16 @@ function faqposition() {
 		'singular_name'      => _x( 'faqposition', 'MoveNepal' ),
 		'menu_name'          => _x( 'faqposition', 'MoveNepal' ),
 		'name_admin_bar'     => _x( 'faqposition', 'MoveNepal' ),
-		'add_new'            => _x( 'Ajouter une hierarchie', 'MoveNepal' ),
-		'add_new_item'       => __( 'Ajouter une nouvelle categorie', 'MoveNepal' ),
-		'new_item'           => __( 'Nouvelle categorie', 'MoveNepal' ),
-		'edit_item'          => __( 'Editer une categorie', 'MoveNepal' ),
-		'view_item'          => __( 'Voir la categorie', 'MoveNepal' ),
-		'all_items'          => __( 'Toutes les categories', 'MoveNepal' ),
-		'search_items'       => __( 'Rechercher dans les categories', 'MoveNepal' ),
-		'parent_item_colon'  => __( 'Référence parente:', 'MoveNepal' ),
-		'not_found'          => __( 'Aucun categorie trouvée.', 'MoveNepal' ),
-		'not_found_in_trash' => __( 'Aucun categorie dans la corbeille.', 'MoveNepal' )
+		'add_new'            => _x( 'Add a hierarchy', 'MoveNepal' ),
+		'add_new_item'       => __( 'Add a new item', 'MoveNepal' ),
+		'new_item'           => __( 'New category', 'MoveNepal' ),
+		'edit_item'          => __( 'Edit category', 'MoveNepal' ),
+		'view_item'          => __( 'See category', 'MoveNepal' ),
+		'all_items'          => __( 'All categories', 'MoveNepal' ),
+		'search_items'       => __( 'Search in category', 'MoveNepal' ),
+		'parent_item_colon'  => __( 'Parent item:', 'MoveNepal' ),
+		'not_found'          => __( 'No category found', 'MoveNepal' ),
+		'not_found_in_trash' => __( 'No category found in the trash.', 'MoveNepal' )
 	);
 
 	$args = array(

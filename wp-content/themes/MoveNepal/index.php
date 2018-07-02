@@ -6,17 +6,20 @@
 if(have_posts()):
 while(have_posts()):
 		the_post();
-		the_post_thumbnail();
-	    the_title('<h2 class="pagetitle">','</h2>');
-	    the_content();
+	    the_title('<h2 class="pagetitle container">','</h2>');
 ?>
-	<hr>
 <?php endwhile;
 endif;
+$thumb = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full' );
 ?>
-<div class="container-fluid">
-<p>blablabla</p>
+
+<?php include_once( 'banniere.php' );?>
+<div class="container">
+<?php the_content(); ?>
 </div>
+
+
+
 
 
 
