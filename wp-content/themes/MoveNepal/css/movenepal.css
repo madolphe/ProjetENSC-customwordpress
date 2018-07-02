@@ -13,15 +13,20 @@ font-family: 'bigcaslon';
 src: url('../fonts/bigcaslon.ttf');
 }
 
+* {
+  font-family: 'Avenir';
+}
+
+
 .jumbotron {
 margin-bottom: 70px !important;
 }
 
 .pol2{
-  font-family: quicksand;
+  font-family: 'quicksand';
 }
 .pol3{
-  font-family: bigcaslon;
+  font-family: 'bigcaslon';
 }
 .text-middle{
   font-family: Avenir;
