@@ -7,16 +7,16 @@ function contact() {
 		'singular_name'      => _x( 'contact', 'MoveNepal' ),
 		'menu_name'          => _x( 'contacts', 'MoveNepal' ),
 		'name_admin_bar'     => _x( 'contacts', 'MoveNepal' ),
-		'add_new'            => _x( 'Ajouter un contact', 'MoveNepal' ),
-		'add_new_item'       => __( 'Ajouter un contact', 'MoveNepal' ),
-		'new_item'           => __( 'Nouveau contact', 'MoveNepal' ),
-		'edit_item'          => __( 'Editer un contact', 'MoveNepal' ),
-		'view_item'          => __( 'Voir le contact', 'MoveNepal' ),
-		'all_items'          => __( 'Tous les contacts', 'MoveNepal' ),
-		'search_items'       => __( 'Rechercher dans contact', 'MoveNepal' ),
-		'parent_item_colon'  => __( 'Référence parente:', 'MoveNepal' ),
-		'not_found'          => __( 'Aucun contact trouvé.', 'MoveNepal' ),
-		'not_found_in_trash' => __( 'Aucun contact dans la corbeille.', 'MoveNepal' )
+		'add_new'            => _x( 'Add a contact', 'MoveNepal' ),
+		'add_new_item'       => __( 'Add a contact', 'MoveNepal' ),
+		'new_item'           => __( 'New contact', 'MoveNepal' ),
+		'edit_item'          => __( 'Edit a contact', 'MoveNepal' ),
+		'view_item'          => __( 'See the contact', 'MoveNepal' ),
+		'all_items'          => __( 'All contacts', 'MoveNepal' ),
+		'search_items'       => __( 'Search in contact', 'MoveNepal' ),
+		'parent_item_colon'  => __( 'Parent item:', 'MoveNepal' ),
+		'not_found'          => __( 'No contact found.', 'MoveNepal' ),
+		'not_found_in_trash' => __( 'No contact found in trash.', 'MoveNepal' )
 	);
 
 	$args = array(
