@@ -7,7 +7,7 @@
 <div class = "container">
 	<h2 class="pagetitle">Get in touch</h2>
 </div>
-	<?php echo do_shortcode('[wpgmza id="1"]');	?>
+	<?php echo do_shortcode('[gmap-embed id="282"]');	?>
 <div class = "container">
 <?php
 	if(have_posts()):
