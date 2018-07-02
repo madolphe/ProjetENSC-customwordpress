@@ -69,6 +69,7 @@ margin-bottom: 70px !important;
   font-family: Avenir !important;
   background-color:#62B2C1 !important;
   border: none;
+  border-radius: 0px !important;
 
 }
 
@@ -94,6 +95,8 @@ margin-bottom: 70px !important;
   border : solid #62B2C1 !important;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+          width: 100% !important;
+    text-align: center !important;
 
   }
 .dropdown-divider{color:white;}
