@@ -1488,8 +1488,24 @@ width: 90px;
   background: #16AAC5 !important;
   border-top: #16AAC5 !important;
   color: white !important;
+  background-image: url("../images/backgroundPricing.png") !important ;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+    background-size: cover !important;
+    padding: 20px !important;
 }
 
-.rpt_custom_btn {
+.rpt_custom_btn, .rpt_subtitle_0, .rpt_description_0 {
   color: white !important;
 }
+
+.rpt_plan_0 {
+  box-shadow: 0 3px 8px #B9C5CD !important;
+  font-family: 'quicksand' !important;
+}
+
+.rpt_recommended {
+  display: none !important;
+}
+
+
