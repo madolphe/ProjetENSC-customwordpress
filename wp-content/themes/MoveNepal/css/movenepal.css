@@ -13,6 +13,10 @@ font-family: 'bigcaslon';
 src: url('../fonts/bigcaslon.ttf');
 }
 
+.jumbotron {
+margin-bottom: 70px !important;
+}
+
 .pol2{
   font-family: quicksand;
 }
@@ -1269,8 +1273,7 @@ footer .row .border-right{
 
 /*--------------
 
-FIN FOOTER
-
+ Page Feedbacks
 -------------------*/
 
 
@@ -1318,6 +1321,11 @@ padding: 4px;
    box-shadow: 0 3px 8px #B9C5CD !important;
 }
 
+/*------------------
+
+Fil d'Ariane
+ ----------------- */
+
 .breadcrumb {
   background-color: white !important;
 }
@@ -1342,6 +1350,12 @@ padding: 4px;
   top: 0;
   left: 0;
 }
+
+/*------------------
+
+Video responsive
+ ----------------- */
+
 /* 1. Pas de support d'object-fit */
 @media (min-aspect-ratio: 16/9) {
   .video_row > video {
@@ -1366,6 +1380,11 @@ padding: 4px;
   }
 }
 
+
+/*------------------
+
+PAGE APPLY
+ ----------------- */
 .card-title, #application-form label {
   color : #1291A7;
 }
@@ -1479,6 +1498,11 @@ width: 90px;
 .home_ready {text-align: center; margin-top: 30px; font-family: Avenir; color: #707070; font-size: 1.2em; }
 
 
+/*------------------
+
+PAGE PRICING
+ ----------------- */
+
 .rpt_title_0 {
   background-color: #064A52 !important;
   color: white !important;
@@ -1488,8 +1512,24 @@ width: 90px;
   background: #16AAC5 !important;
   border-top: #16AAC5 !important;
   color: white !important;
+  background-image: url("../images/backgroundPricing.png") !important ;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+    background-size: cover !important;
+    padding: 20px !important;
 }
 
-.rpt_custom_btn {
+.rpt_custom_btn, .rpt_subtitle_0, .rpt_description_0 {
   color: white !important;
 }
+
+.rpt_plan_0 {
+  box-shadow: 0 3px 8px #B9C5CD !important;
+  font-family: 'quicksand' !important;
+}
+
+.rpt_recommended {
+  display: none !important;
+}
+
+
