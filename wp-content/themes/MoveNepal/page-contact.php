@@ -9,13 +9,10 @@
 </div>
 	<?php echo do_shortcode('[wpgmza id="1"]');	?>
 <div class = "container">
-	<div class= "text-center">
-
 <?php
 	if(have_posts()):
 	while(have_posts()):
 			the_post();
-			?></div><?php
 			the_post_thumbnail();
 			the_content();
 	endwhile;
@@ -50,10 +47,8 @@
 			<?php include('contactForm.php') ?>
 		</div>
 	</div>
-	<br/>
-
-	<div class= "text-center">
-		<p>Move Nepal a venture of IEC Nepal
+	<div>
+		<p class= "text-center">Move Nepal a venture of IEC Nepal
 		<br/>For more information: Media Kit
 		</p>
 	</div>
