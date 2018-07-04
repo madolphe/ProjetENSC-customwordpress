@@ -48,7 +48,7 @@
 	</div>
 	<div>
 		<p class= "text-center">Move Nepal a venture of IEC Nepal
-		<br/>For more information: Media Kit
+		<br/>For more information: <a href="">Media Kit</a>
 		</p>
 	</div>
 </div>

@@ -1298,9 +1298,6 @@ p .sous-titre{font-family: Avenir;font-size: 1.4em; color :#707070; text-align: 
 .page-id-105 .video_brow {
   display: inline !important;
 }
-.video_row {
-  display: none;
-}
 
 .page-id-105 .video_row {
   display: block; !important;

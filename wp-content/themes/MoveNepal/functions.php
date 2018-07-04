@@ -6,7 +6,7 @@ add_theme_support( 'post-thumbnails' );
 function movenepal_script_enqueue(){
 	//(nom, chemin absolu, nombre de dependance, version, tous les supports
 	wp_enqueue_style('bootsrap',get_template_directory_uri().'/css/bootstrap.min.css',array(),'3.3.7','all');
-		  wp_enqueue_style('font-awesome-icons','https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css');
+	wp_enqueue_style('font-awesome-icons','https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css');
 	wp_enqueue_style('customstyle',get_template_directory_uri().'/css/movenepal.css',array(),'1.0.0','all');
 	//on fait de même avec les scripts JS - le bool a la fin permet de dire ou est print le script
 
