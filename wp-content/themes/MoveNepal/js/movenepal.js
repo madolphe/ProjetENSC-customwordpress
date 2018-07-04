@@ -1494,5 +1494,25 @@ jQuery('a[href*="#anchor_video"]')
     });
 });
 
+jQuery(document).ready(function() {
+        function checkScroll() {
+
+            var startY = jQuery('.video_row').height(); //The point where the navbar changes in px
+			var startY2 = jQuery('.ligne1').height();
+            var startY= startY + startY2;
+			if (jQuery(window).scrollTop() > startY) {
+                jQuery('.ligne2').addClass("scrolled");
+            } else {
+                jQuery('.ligne2').removeClass("scrolled");
+            }
+        }
+        if (jQuery('.ligne2').length > 0) {
+            jQuery(window).on("scroll load resize", function () {
+                checkScroll();
+            });
+        }
+    }
+)
+
 
 

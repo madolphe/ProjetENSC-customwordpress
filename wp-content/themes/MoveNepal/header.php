@@ -41,7 +41,6 @@
             <div class="col-sm-2 ">
                 <button type="button" class="btn apply"> <a href=<?php bloginfo('template_directory') ?>"the-volunteers/apply"?> <strong>APPLY</strong> <img src="<?php echo bloginfo('template_directory')?>/images/right-arrow.png"></a></button>
             </div>
-
         </div>
 
         <div class="row ligne2">
@@ -72,23 +71,21 @@
                     </div><!-- /.navbar-collapse -->
             </nav>
         </div>
-
     </div>
-
-    <div class="container">
-        <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="<?php echo get_home_url(); ?>"><?php bloginfo('name'); ?></a></li>
-            <?php
-            $parentID = wp_get_post_parent_id( get_the_ID() );
-            while ($parentID){
-                ?>
-                <li class="breadcrumb-item"><a href="<?php echo get_page_link( $parentID ); ?>"><?php echo get_the_title( $parentID ); ?></a></li>
-                <?php
-                $parentID = wp_get_post_parent_id( $parentID );
-            }
-            ?>
-            <li class="breadcrumb-item active"><?php echo get_the_title(); ?></li>
-        </ol>
+            <div class="container">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="<?php echo get_home_url(); ?>"><?php bloginfo('name'); ?></a></li>
+					<?php
+					$parentID = wp_get_post_parent_id( get_the_ID() );
+					while ($parentID){
+						?>
+                        <li class="breadcrumb-item"><a href="<?php echo get_page_link( $parentID ); ?>"><?php echo get_the_title( $parentID ); ?></a></li>
+						<?php
+						$parentID = wp_get_post_parent_id( $parentID );
+					}
+					?>
+                    <li class="breadcrumb-item active"><?php echo get_the_title(); ?></li>
+                </ol>
+            </div>
     </div>
-
 </header>

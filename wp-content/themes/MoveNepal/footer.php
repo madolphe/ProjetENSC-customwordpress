@@ -1,3 +1,4 @@
+
 <div class="container-fluid">
     <footer>
 
@@ -58,8 +59,8 @@
                         </div>
 
                     </div>
-                    <div class="col-md-3 col-lg-3 col-xs-3 div_3 border-right footer_div"> <?php
-                        wp_nav_menu(array('theme_location'=>'secondary')); ?>
+                    <div class="col-md-3 col-lg-3 col-xs-3  border-right footer_div">
+                        <div class="div_3"><?php wp_nav_menu(array('theme_location'=>'secondary')); ?> </div>
                     </div>
 
                     <div class="col-md-3 col-lg-3 col-xs-3 footer_div div_4 footer_center">

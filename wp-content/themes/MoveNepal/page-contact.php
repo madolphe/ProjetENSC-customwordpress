@@ -7,7 +7,7 @@
 <div class = "container">
 	<h2 class="pagetitle">Get in touch</h2>
 </div>
-	<?php echo do_shortcode('[gmap-embed id="282"]');	?>
+	<?php echo do_shortcode('[gmap-embed id="194"]');	?>
 <div class = "container">
 <?php
 	if(have_posts()):
@@ -34,7 +34,7 @@
 			?>
 			<br/>
 			<div class = "col-xs-3 col-sm-offset-2 col-xs-offset-1"><strong>Physical adress</strong><br/><?php the_field('physical_adress'); ?></div>
-			<div class = "col-xs-3"><strong>Phone</strong><br/><?php the_field('phone'); ?><br/><strong>Mobile</strong><br/><?php the_field('mobile'); ?><br/></div>
+			<div class = "col-xs-3 contact"><strong>Phone</strong><br/><?php the_field('phone'); ?><br/><strong>Mobile</strong><br/><?php the_field('mobile'); ?><br/></div>
 			<div class = "col-xs-3"><strong>E-mail</strong><br/><?php the_field('e-mail'); ?></div><?php
 		}
 	}
